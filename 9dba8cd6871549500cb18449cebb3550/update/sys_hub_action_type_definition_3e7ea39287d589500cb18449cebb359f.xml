@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patchrtp-01-05-2022_01-05-2022_1908.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>convert_ms_to_duration</internal_name>
+        <label_cache>[{"name":"{{action.milliseconds}}","label":"action➛Milliseconds","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"integer","uiUniqueId":"ed59f84b-d970-4b0b-96d5-8fa73414910e"}},{"name":"{{step[626d9d42-4519-44ce-8062-a15508ebed14].variable}}","label":"step➛Script step conversion➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[626d9d42-4519-44ce-8062-a15508ebed14].glide_duration}}","label":"step➛Script step conversion➛glide_duration","type":"step","ref":"","reference_display":"","base_type":"glide_duration","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>5001339687d589500cb18449cebb35ce</master_snapshot>
+        <name>Convert MS to Duration</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:09:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3e7ea39287d589500cb18449cebb359f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Convert MS to Duration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_3e7ea39287d589500cb18449cebb359f</sys_update_name>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=3e7ea39287d589500cb18449cebb359f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3e7ea39287d589500cb18449cebb359f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_id>05207b1687d589500cb18449cebb35e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:23</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD0d207b1686d5895051b74b9acf5c52bc":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD0d207b1686d5895051b74b9acf5c52bc.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"fa066496-5529-4863-b016-c2e4ed297833\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD0d207b1686d5895051b74b9acf5c52bc\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">81207b1687d589500cb18449cebb35c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3e7ea39287d589500cb18449cebb359f</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_id>41207b1687d589500cb18449cebb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">cd207b1687d589500cb18449cebb35c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3e7ea39287d589500cb18449cebb359f</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_id>8d207b1687d589500cb18449cebb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">45207b1687d589500cb18449cebb35cd</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3e7ea39287d589500cb18449cebb359f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>duration</field>
+        <id>3e7ea39287d589500cb18449cebb359f</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_id>85207b1687d589500cb18449cebb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f</table>
+        <value>{{step[626d9d42-4519-44ce-8062-a15508ebed14].glide_duration}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>3e7ea39287d589500cb18449cebb359f</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_id>0d207b1687d589500cb18449cebb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>3e7ea39287d589500cb18449cebb359f</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_id>49207b1687d589500cb18449cebb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=3e7ea39287d589500cb18449cebb359f^sys_idNOT IN34207b1687d589500cb18449cebb3594"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Convert MS to Duration">3e7ea39287d589500cb18449cebb359f</action>
+        <cid>626d9d42-4519-44ce-8062-a15508ebed14</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step conversion</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>34207b1687d589500cb18449cebb3594</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:04</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=34207b1687d589500cb18449cebb3594"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>34207b1687d589500cb18449cebb3594</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:04</sys_created_on>
+        <sys_id>01207b1687d589500cb18449cebb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:04</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    // Script inputs converts our integer to a string, parseInt converts back to int
+	outputs.glide_duration = new GlideDuration(parseInt(inputs.ms_in)); // msec to Duration
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>34207b1687d589500cb18449cebb3594</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:04</sys_created_on>
+        <sys_id>85207b1687d589500cb18449cebb35b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:04</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>34207b1687d589500cb18449cebb3594</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:04</sys_created_on>
+        <sys_id>8d207b1687d589500cb18449cebb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:04</sys_updated_on>
+        <value/>
+        <variable display_value="">f0207b1687d589500cb18449cebb359e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=34207b1687d589500cb18449cebb3594"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>34207b1687d589500cb18449cebb3594</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:04</sys_created_on>
+        <sys_id>05207b1687d589500cb18449cebb35ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ms_in</field>
+        <id>34207b1687d589500cb18449cebb3594</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:04</sys_created_on>
+        <sys_id>0d207b1687d589500cb18449cebb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:04</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_34207b1687d589500cb18449cebb3594</table>
+        <value>{{action.milliseconds}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>34207b1687d589500cb18449cebb3594</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:04</sys_created_on>
+        <sys_id>05207b1687d589500cb18449cebb35b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_34207b1687d589500cb18449cebb3594^id=34207b1687d589500cb18449cebb3594"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=34207b1687d589500cb18449cebb3594"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=34207b1687d589500cb18449cebb3594^sys_idNOT INf0207b1687d589500cb18449cebb359e"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ms_in</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step conversion">34207b1687d589500cb18449cebb3594</model>
+        <model_id>34207b1687d589500cb18449cebb3594</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_34207b1687d589500cb18449cebb3594</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f0207b1687d589500cb18449cebb359e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=34207b1687d589500cb18449cebb3594^sys_idNOT IN7c207b1687d589500cb18449cebb35a2"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=e4526065-c997-41c8-8ea7-d4511146d453</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>glide_duration</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>glide_duration</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step conversion">34207b1687d589500cb18449cebb3594</model>
+        <model_id>34207b1687d589500cb18449cebb3594</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_34207b1687d589500cb18449cebb3594</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7c207b1687d589500cb18449cebb35a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=34207b1687d589500cb18449cebb3594"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_34207b1687d589500cb18449cebb3594^sys_idNOT IN01207b1687d589500cb18449cebb35a7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>glide_duration</element>
+        <help/>
+        <hint/>
+        <label>glide_duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_34207b1687d589500cb18449cebb3594</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>01207b1687d589500cb18449cebb35a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=3e7ea39287d589500cb18449cebb359f^sys_idNOT IN25ce679287d589500cb18449cebb359b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=ed59f84b-d970-4b0b-96d5-8fa73414910e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>milliseconds</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Milliseconds</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert MS to Duration">3e7ea39287d589500cb18449cebb359f</model>
+        <model_id>3e7ea39287d589500cb18449cebb359f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_3e7ea39287d589500cb18449cebb359f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:11:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>25ce679287d589500cb18449cebb359b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=25ce679287d589500cb18449cebb359b"/>
+    <sys_hub_action_output action="delete_multiple" query="model=3e7ea39287d589500cb18449cebb359f^sys_idNOT IN45207b1687d589500cb18449cebb35cd,81207b1687d589500cb18449cebb35c0,cd207b1687d589500cb18449cebb35c5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=c9b9be14-522e-4c00-8a63-2a6f0b717d54</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>Duration</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert MS to Duration">3e7ea39287d589500cb18449cebb359f</model>
+        <model_id>3e7ea39287d589500cb18449cebb359f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>45207b1687d589500cb18449cebb35cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=45207b1687d589500cb18449cebb35cd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=45207b1687d589500cb18449cebb35cd"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD0d207b1686d5895051b74b9acf5c52bc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=fa066496-5529-4863-b016-c2e4ed297833</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Convert MS to Duration">3e7ea39287d589500cb18449cebb359f</model>
+        <model_id>3e7ea39287d589500cb18449cebb359f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>81207b1687d589500cb18449cebb35c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=81207b1687d589500cb18449cebb35c0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=81207b1687d589500cb18449cebb35c0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=ad2da237-37b6-49a8-8591-819c27a5a31f,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert MS to Duration">3e7ea39287d589500cb18449cebb359f</model>
+        <model_id>3e7ea39287d589500cb18449cebb359f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cd207b1687d589500cb18449cebb35c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cd207b1687d589500cb18449cebb35c5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cd207b1687d589500cb18449cebb35c5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3e7ea39287d589500cb18449cebb359f"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=3e7ea39287d589500cb18449cebb359f^sys_idNOT INa9ceeb9287d589500cb18449cebb356e"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Convert MS to Duration">3e7ea39287d589500cb18449cebb359f</action_type_id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:11:07</sys_created_on>
+        <sys_id>a9ceeb9287d589500cb18449cebb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:11:07</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a9ceeb9287d589500cb18449cebb356e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_3e7ea39287d589500cb18449cebb359f^sys_idNOT INedceeb9287d589500cb18449cebb3569"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>milliseconds</element>
+        <help/>
+        <hint/>
+        <label>Milliseconds</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_3e7ea39287d589500cb18449cebb359f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:11:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>edceeb9287d589500cb18449cebb3569</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_3e7ea39287d589500cb18449cebb359f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f^sys_idNOT IN41207b1687d589500cb18449cebb35c5,85207b1687d589500cb18449cebb35dd,c5207b1687d589500cb18449cebb35cc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>41207b1687d589500cb18449cebb35c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>duration</element>
+        <help/>
+        <hint/>
+        <label>Duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>85207b1687d589500cb18449cebb35dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:17:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c5207b1687d589500cb18449cebb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:17:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_3e7ea39287d589500cb18449cebb359f"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=3e7ea39287d589500cb18449cebb359f^sys_idNOT INbc01739687d589500cb18449cebb356a"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Convert MS to Duration">3e7ea39287d589500cb18449cebb359f</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"bc01739687d589500cb18449cebb356a","name":"plan","plan_signature":null}}</plan>
+        <snapshot>e801739687d589500cb18449cebb3506</snapshot>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bc01739687d589500cb18449cebb356a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:53</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>convert_ms_to_duration</internal_name>
+        <label_cache>[{"name":"{{action.milliseconds}}","label":"action➛Milliseconds","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"integer","uiUniqueId":"ed59f84b-d970-4b0b-96d5-8fa73414910e"}},{"name":"{{step[626d9d42-4519-44ce-8062-a15508ebed14].variable}}","label":"step➛Script step conversion➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[626d9d42-4519-44ce-8062-a15508ebed14].glide_duration}}","label":"step➛Script step conversion➛glide_duration","type":"step","ref":"","reference_display":"","base_type":"glide_duration","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>Convert MS to Duration</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Convert MS to Duration">3e7ea39287d589500cb18449cebb359f</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>5001339687d589500cb18449cebb35ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:51</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=5001339687d589500cb18449cebb35ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>5001339687d589500cb18449cebb35ce</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_id>2001739687d589500cb18449cebb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">e801339687d589500cb18449cebb35f5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>5001339687d589500cb18449cebb35ce</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_id>6c01739687d589500cb18449cebb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">ec01339687d589500cb18449cebb35fc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>5001339687d589500cb18449cebb35ce</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_id>e001739687d589500cb18449cebb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD28013396c2d589503743f423cab2cbed":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD28013396c2d589503743f423cab2cbed.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"fa066496-5529-4863-b016-c2e4ed297833\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD28013396c2d589503743f423cab2cbed\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">2401339687d589500cb18449cebb35f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5001339687d589500cb18449cebb35ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>duration</field>
+        <id>5001339687d589500cb18449cebb35ce</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_id>6401739687d589500cb18449cebb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce</table>
+        <value>{{step[626d9d42-4519-44ce-8062-a15508ebed14].glide_duration}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>5001339687d589500cb18449cebb35ce</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_id>e801739687d589500cb18449cebb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>5001339687d589500cb18449cebb35ce</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_id>2801739687d589500cb18449cebb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=5001339687d589500cb18449cebb35ce^sys_idNOT IN9c01339687d589500cb18449cebb35d7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Convert MS to Duration">5001339687d589500cb18449cebb35ce</action>
+        <cid>626d9d42-4519-44ce-8062-a15508ebed14</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step conversion</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9c01339687d589500cb18449cebb35d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:51</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9c01339687d589500cb18449cebb35d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9c01339687d589500cb18449cebb35d7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_id>6801339687d589500cb18449cebb35ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <value/>
+        <variable display_value="ms_in">d401339687d589500cb18449cebb35db</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9c01339687d589500cb18449cebb35d7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:51</sys_created_on>
+        <sys_id>e001339687d589500cb18449cebb35e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:51</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9c01339687d589500cb18449cebb35d7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_id>e801339687d589500cb18449cebb35e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    // Script inputs converts our integer to a string, parseInt converts back to int
+	outputs.glide_duration = new GlideDuration(parseInt(inputs.ms_in)); // msec to Duration
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9c01339687d589500cb18449cebb35d7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>9c01339687d589500cb18449cebb35d7</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:51</sys_created_on>
+        <sys_id>a801339687d589500cb18449cebb35e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ms_in</field>
+        <id>9c01339687d589500cb18449cebb35d7</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_id>e401339687d589500cb18449cebb35ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9c01339687d589500cb18449cebb35d7</table>
+        <value>{{action.milliseconds}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>9c01339687d589500cb18449cebb35d7</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:51</sys_created_on>
+        <sys_id>6001339687d589500cb18449cebb35e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_9c01339687d589500cb18449cebb35d7^id=9c01339687d589500cb18449cebb35d7"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=9c01339687d589500cb18449cebb35d7"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9c01339687d589500cb18449cebb35d7^sys_idNOT INd401339687d589500cb18449cebb35db"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ms_in</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>ms_in</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step conversion">9c01339687d589500cb18449cebb35d7</model>
+        <model_id>9c01339687d589500cb18449cebb35d7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9c01339687d589500cb18449cebb35d7</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d401339687d589500cb18449cebb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=9c01339687d589500cb18449cebb35d7^sys_idNOT IN1c01339687d589500cb18449cebb35e0"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=e4526065-c997-41c8-8ea7-d4511146d453</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>glide_duration</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>glide_duration</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step conversion">9c01339687d589500cb18449cebb35d7</model>
+        <model_id>9c01339687d589500cb18449cebb35d7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9c01339687d589500cb18449cebb35d7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1c01339687d589500cb18449cebb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9c01339687d589500cb18449cebb35d7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9c01339687d589500cb18449cebb35d7^sys_idNOT INe801339687d589500cb18449cebb35e4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>glide_duration</element>
+        <help/>
+        <hint/>
+        <label>glide_duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_9c01339687d589500cb18449cebb35d7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e801339687d589500cb18449cebb35e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=5001339687d589500cb18449cebb35ce^sys_idNOT INd401339687d589500cb18449cebb35d1"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=ed59f84b-d970-4b0b-96d5-8fa73414910e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>milliseconds</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Milliseconds</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert MS to Duration">5001339687d589500cb18449cebb35ce</model>
+        <model_id>5001339687d589500cb18449cebb35ce</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_5001339687d589500cb18449cebb35ce</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d401339687d589500cb18449cebb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d401339687d589500cb18449cebb35d1"/>
+    <sys_hub_action_output action="delete_multiple" query="model=5001339687d589500cb18449cebb35ce^sys_idNOT IN2401339687d589500cb18449cebb35f0,e801339687d589500cb18449cebb35f5,ec01339687d589500cb18449cebb35fc"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD28013396c2d589503743f423cab2cbed,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=fa066496-5529-4863-b016-c2e4ed297833</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Convert MS to Duration">5001339687d589500cb18449cebb35ce</model>
+        <model_id>5001339687d589500cb18449cebb35ce</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2401339687d589500cb18449cebb35f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2401339687d589500cb18449cebb35f0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2401339687d589500cb18449cebb35f0"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=ad2da237-37b6-49a8-8591-819c27a5a31f,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert MS to Duration">5001339687d589500cb18449cebb35ce</model>
+        <model_id>5001339687d589500cb18449cebb35ce</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e801339687d589500cb18449cebb35f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e801339687d589500cb18449cebb35f5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e801339687d589500cb18449cebb35f5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_duration,uiTypeLabel=Duration,uiUniqueId=c9b9be14-522e-4c00-8a63-2a6f0b717d54</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>duration</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">glide_duration</internal_type>
+        <label>Duration</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Convert MS to Duration">5001339687d589500cb18449cebb35ce</model>
+        <model_id>5001339687d589500cb18449cebb35ce</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ec01339687d589500cb18449cebb35fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ec01339687d589500cb18449cebb35fc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ec01339687d589500cb18449cebb35fc"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5001339687d589500cb18449cebb35ce"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=5001339687d589500cb18449cebb35ce^sys_idNOT INe001739687d589500cb18449cebb3506"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Convert MS to Duration">5001339687d589500cb18449cebb35ce</action_type_id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_id>e001739687d589500cb18449cebb3506</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e001739687d589500cb18449cebb3506"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_5001339687d589500cb18449cebb35ce^sys_idNOT IN1001339687d589500cb18449cebb35d6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>milliseconds</element>
+        <help/>
+        <hint/>
+        <label>Milliseconds</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_5001339687d589500cb18449cebb35ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1001339687d589500cb18449cebb35d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_5001339687d589500cb18449cebb35ce"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce^sys_idNOT IN6001339687d589500cb18449cebb35fc,6c01339687d589500cb18449cebb35f4,e401739687d589500cb18449cebb3500"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6001339687d589500cb18449cebb35fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6c01339687d589500cb18449cebb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>duration</element>
+        <help/>
+        <hint/>
+        <label>Duration</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 16:20:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e401739687d589500cb18449cebb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 16:20:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_5001339687d589500cb18449cebb35ce"/>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>3e7ea39287d589500cb18449cebb359f</sys_id>
+        <latest_snapshot>5001339687d589500cb18449cebb35ce</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

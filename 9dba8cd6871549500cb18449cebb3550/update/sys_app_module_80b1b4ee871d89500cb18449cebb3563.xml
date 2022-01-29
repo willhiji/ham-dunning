@@ -5,16 +5,18 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="sys_decision">sys_scope=9dba8cd6871549500cb18449cebb3550^EQ<item display_table="sys_scope" display_value="HAM Dunning" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="9dba8cd6871549500cb18449cebb3550"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Output states</mobile_title>
+        <mobile_title>Dunning decision</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_snc_ham_dunning_output_states</name>
-        <order>100</order>
+        <name>sys_decision</name>
+        <order>10</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -23,23 +25,23 @@
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
-        <sys_created_on>2022-01-29 00:24:01</sys_created_on>
+        <sys_created_on>2022-01-29 21:05:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1006501a875549500cb18449cebb3530</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Dunning decision states</sys_name>
+        <sys_id>80b1b4ee871d89500cb18449cebb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dunning decision</sys_name>
         <sys_overrides/>
         <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
-        <sys_update_name>sys_app_module_1006501a875549500cb18449cebb3530</sys_update_name>
+        <sys_update_name>sys_app_module_80b1b4ee871d89500cb18449cebb3563</sys_update_name>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-01-29 20:58:08</sys_updated_on>
+        <sys_updated_on>2022-01-29 21:05:28</sys_updated_on>
         <timeline_page/>
-        <title>Dunning decision states</title>
+        <title>Dunning decision</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

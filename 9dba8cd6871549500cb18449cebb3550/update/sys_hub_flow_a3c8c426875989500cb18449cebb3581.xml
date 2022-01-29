@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patchrtp-01-05-2022_01-05-2022_1908.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Evaluate dunning decision</description>
+        <internal_name>reclamation_dunning_decision</internal_name>
+        <label_cache>[{"name":"871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.notification","label":"1 - Make a decision➛Output states Record➛Notification","reference":"sysevent_email_action","reference_display":"Notification","type":"reference","base_type":"reference","parent_table_name":"x_snc_ham_dunning_output_states","column_name":"notification"},{"name":"871a2b61-4f1b-45b1-a509-5446e8e1df37.answer","label":"1 - Make a decision➛Output states Record","reference":"x_snc_ham_dunning_output_states","reference_display":"Output states","type":"reference","base_type":"reference","attributes":{}},{"name":"871a2b61-4f1b-45b1-a509-5446e8e1df37.table_name","label":"1 - Make a decision➛Output states Table","reference":"x_snc_ham_dunning_output_states","reference_display":"Output states","type":"table_name","base_type":"table_name","attributes":{}},{"name":"subflow.current_state","label":"Input➛Current state","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ac21de81-be54-4911-9b6d-02301b8db53d"}},{"name":"subflow.refresh_line_task","label":"Input➛Refresh line task","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6a7ac684-f307-42e5-8397-3e7b62e95706"}},{"name":"871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.next_state","label":"1 - Make a decision➛Output states Record➛Next state","reference":"","reference_display":"Next state","type":"string","base_type":"string","parent_table_name":"x_snc_ham_dunning_output_states","column_name":"next_state"},{"name":"871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.comment","label":"1 - Make a decision➛Output states Record➛Comment","reference":"","reference_display":"Comment","type":"string","base_type":"string","parent_table_name":"x_snc_ham_dunning_output_states","column_name":"comment"}]</label_cache>
+        <master_snapshot>127f00ee875989500cb18449cebb35d1</master_snapshot>
+        <name>Reclamation Dunning Decision</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:04:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a3c8c426875989500cb18449cebb3581</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Reclamation Dunning Decision</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sys_hub_flow_a3c8c426875989500cb18449cebb3581</sys_update_name>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:34:00</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=a3c8c426875989500cb18449cebb3581"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581^id=a3c8c426875989500cb18449cebb3581"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a3c8c426875989500cb18449cebb3581"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a3c8c426875989500cb18449cebb3581"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a3c8c426875989500cb18449cebb3581^sys_idNOT IN23c88866875989500cb18449cebb35ce"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a3c8c426875989500cb18449cebb3581</id>
+        <name>Reclamation Dunning Decision</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:04:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>23c88866875989500cb18449cebb35ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:04:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=23c88866875989500cb18449cebb35ce"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a3c8c426875989500cb18449cebb3581^sys_idNOT IN7e4b8c2a875989500cb18449cebb3549,be4b8c2a875989500cb18449cebb3542"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6a7ac684-f307-42e5-8397-3e7b62e95706</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_hamp_hw_refresh_line_task</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>refresh_line_task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Refresh line task</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Reclamation Dunning Decision">a3c8c426875989500cb18449cebb3581</model>
+        <model_id>a3c8c426875989500cb18449cebb3581</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a3c8c426875989500cb18449cebb3581</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_hamp_hw_refresh_line_task">sn_hamp_hw_refresh_line_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7e4b8c2a875989500cb18449cebb3549</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ac21de81-be54-4911-9b6d-02301b8db53d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_state</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Current state</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Reclamation Dunning Decision">a3c8c426875989500cb18449cebb3581</model>
+        <model_id>a3c8c426875989500cb18449cebb3581</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a3c8c426875989500cb18449cebb3581</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>be4b8c2a875989500cb18449cebb3542</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=a3c8c426875989500cb18449cebb3581^sys_idNOT IN2efec0ae875989500cb18449cebb3541,8b4b8c2a875989500cb18449cebb3555,c74b8c2a875989500cb18449cebb3551"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6db5a27d-a01f-4ed8-802a-3a16222f18e5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sysevent_email_action</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>notification</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Notification</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Reclamation Dunning Decision">a3c8c426875989500cb18449cebb3581</model>
+        <model_id>a3c8c426875989500cb18449cebb3581</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sysevent_email_action">sysevent_email_action</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:31:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2efec0ae875989500cb18449cebb3541</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:31:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=55431513-fc0f-4701-977f-4b28b0ad0102</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>comment</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Comment</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Reclamation Dunning Decision">a3c8c426875989500cb18449cebb3581</model>
+        <model_id>a3c8c426875989500cb18449cebb3581</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8b4b8c2a875989500cb18449cebb3555</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=db70d34d-a066-4d7a-a8fd-70f8adc5e215</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>next_state</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Next state</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Reclamation Dunning Decision">a3c8c426875989500cb18449cebb3581</model>
+        <model_id>a3c8c426875989500cb18449cebb3581</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c74b8c2a875989500cb18449cebb3551</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a3c8c426875989500cb18449cebb3581"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a3c8c426875989500cb18449cebb3581"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a3c8c426875989500cb18449cebb3581"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a3c8c426875989500cb18449cebb3581^sys_idNOT IN034b8c2a875989500cb18449cebb355c,834b8c2a875989500cb18449cebb3566"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">874b8c2a875989500cb18449cebb355b</block>
+        <comment>Hardware Asset Reclamation Dunning</comment>
+        <connected_to/>
+        <decision_table display_value="Hardware Asset Reclamation Dunning">caa923162f110110f56257892799b6cc</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reclamation Dunning Decision">a3c8c426875989500cb18449cebb3581</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>034b8c2a875989500cb18449cebb355c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:34:00</sys_updated_on>
+        <ui_id>871a2b61-4f1b-45b1-a509-5446e8e1df37</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=034b8c2a875989500cb18449cebb355c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>034b8c2a875989500cb18449cebb355c</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_id>4b4b8c2a875989500cb18449cebb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <value>Dunning state decision</value>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>034b8c2a875989500cb18449cebb355c</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_id>874b8c2a875989500cb18449cebb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <value>caa923162f110110f56257892799b6cc</value>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>034b8c2a875989500cb18449cebb355c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_id>c34b8c2a875989500cb18449cebb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Use Branches">7f2f5f9173020010cbfec9d234f6a79b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>034b8c2a875989500cb18449cebb355c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_id>cb4b8c2a875989500cb18449cebb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <value>x_snc_ham_dunning_output_states</value>
+        <variable display_value="Answer Table">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=034b8c2a875989500cb18449cebb355c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer_table</field>
+        <id>034b8c2a875989500cb18449cebb355c</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_id>cf4b8c2a875989500cb18449cebb3562</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_label</field>
+        <id>034b8c2a875989500cb18449cebb355c</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_id>4b4b8c2a875989500cb18449cebb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_table</field>
+        <id>034b8c2a875989500cb18449cebb355c</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_id>874b8c2a875989500cb18449cebb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_current_state</field>
+        <id>034b8c2a875989500cb18449cebb355c</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_id>474b8c2a875989500cb18449cebb3565</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <table>var__m_sys_decision_input_caa923162f110110f56257892799b6cc</table>
+        <value>{{subflow.current_state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_refresh_line_task</field>
+        <id>034b8c2a875989500cb18449cebb355c</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_id>0b4b8c2a875989500cb18449cebb3565</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <table>var__m_sys_decision_input_caa923162f110110f56257892799b6cc</table>
+        <value>{{subflow.refresh_line_task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d^id=034b8c2a875989500cb18449cebb355c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581^id=034b8c2a875989500cb18449cebb355c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=034b8c2a875989500cb18449cebb355c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=034b8c2a875989500cb18449cebb355c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">cf4b8c2a875989500cb18449cebb3565</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reclamation Dunning Decision">a3c8c426875989500cb18449cebb3581</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>next_state,comment,notification</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>834b8c2a875989500cb18449cebb3566</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:34:00</sys_updated_on>
+        <ui_id>630b8d35-ddee-4cae-a2d1-524e2a65fa5a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=834b8c2a875989500cb18449cebb3566"/>
+    <sys_element_mapping action="delete_multiple" query="id=834b8c2a875989500cb18449cebb3566"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>comment</field>
+        <id>834b8c2a875989500cb18449cebb3566</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:44</sys_created_on>
+        <sys_id>0b4b8c2a875989500cb18449cebb3569</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581</table>
+        <value>{{871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.comment}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>next_state</field>
+        <id>834b8c2a875989500cb18449cebb3566</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:44</sys_created_on>
+        <sys_id>474b8c2a875989500cb18449cebb3569</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:44</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581</table>
+        <value>{{871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.next_state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>834b8c2a875989500cb18449cebb3566</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:31:49</sys_created_on>
+        <sys_id>f2fec0ae875989500cb18449cebb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:31:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581</table>
+        <value>{{871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.notification}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=834b8c2a875989500cb18449cebb3566"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=834b8c2a875989500cb18449cebb3566"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a3c8c426875989500cb18449cebb3581"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a3c8c426875989500cb18449cebb3581"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a3c8c426875989500cb18449cebb3581^sys_idNOT IN4f4b8c2a875989500cb18449cebb354e,7e4b8c2a875989500cb18449cebb3548"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>refresh_line_task</element>
+        <help/>
+        <hint/>
+        <label>Refresh line task</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a3c8c426875989500cb18449cebb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4f4b8c2a875989500cb18449cebb354e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current_state</element>
+        <help/>
+        <hint/>
+        <label>Current state</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a3c8c426875989500cb18449cebb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7e4b8c2a875989500cb18449cebb3548</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a3c8c426875989500cb18449cebb3581"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581^sys_idNOT IN7afec0ae875989500cb18449cebb354a,cf4b8c2a875989500cb18449cebb3554,cf4b8c2a875989500cb18449cebb3557"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>notification</element>
+        <help/>
+        <hint/>
+        <label>Notification</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:31:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7afec0ae875989500cb18449cebb354a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:31:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>next_state</element>
+        <help/>
+        <hint/>
+        <label>Next state</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cf4b8c2a875989500cb18449cebb3554</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>comment</element>
+        <help/>
+        <hint/>
+        <label>Comment</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:15:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cf4b8c2a875989500cb18449cebb3557</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:15:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a3c8c426875989500cb18449cebb3581"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a3c8c426875989500cb18449cebb3581"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a3c8c426875989500cb18449cebb3581^sys_idNOT INe67f40ee875989500cb18449cebb3537"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"e67f40ee875989500cb18449cebb3537","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Reclamation Dunning Decision">a3c8c426875989500cb18449cebb3581</plan_id>
+        <snapshot>9aec946e1b5dc5108a48db15cc4bcb3d</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:34:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e67f40ee875989500cb18449cebb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:34:00</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Evaluate dunning decision</description>
+        <internal_name>reclamation_dunning_decision</internal_name>
+        <label_cache>[{"name":"871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.notification","label":"1 - Make a decision➛Output states Record➛Notification","reference":"sysevent_email_action","reference_display":"Notification","type":"reference","base_type":"reference","parent_table_name":"x_snc_ham_dunning_output_states","column_name":"notification"},{"name":"871a2b61-4f1b-45b1-a509-5446e8e1df37.answer","label":"1 - Make a decision➛Output states Record","reference":"x_snc_ham_dunning_output_states","reference_display":"Output states","type":"reference","base_type":"reference","attributes":{}},{"name":"871a2b61-4f1b-45b1-a509-5446e8e1df37.table_name","label":"1 - Make a decision➛Output states Table","reference":"x_snc_ham_dunning_output_states","reference_display":"Output states","type":"table_name","base_type":"table_name","attributes":{}},{"name":"subflow.current_state","label":"Input➛Current state","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ac21de81-be54-4911-9b6d-02301b8db53d"}},{"name":"subflow.refresh_line_task","label":"Input➛Refresh line task","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6a7ac684-f307-42e5-8397-3e7b62e95706"}},{"name":"871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.next_state","label":"1 - Make a decision➛Output states Record➛Next state","reference":"","reference_display":"Next state","type":"string","base_type":"string","parent_table_name":"x_snc_ham_dunning_output_states","column_name":"next_state"},{"name":"871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.comment","label":"1 - Make a decision➛Output states Record➛Comment","reference":"","reference_display":"Comment","type":"string","base_type":"string","parent_table_name":"x_snc_ham_dunning_output_states","column_name":"comment"}]</label_cache>
+        <master>true</master>
+        <name>Reclamation Dunning Decision</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Reclamation Dunning Decision">a3c8c426875989500cb18449cebb3581</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>127f00ee875989500cb18449cebb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:58</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=127f00ee875989500cb18449cebb35d1"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1^id=127f00ee875989500cb18449cebb35d1"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=127f00ee875989500cb18449cebb35d1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=127f00ee875989500cb18449cebb35d1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=127f00ee875989500cb18449cebb35d1^sys_idNOT IN5a7f00ee875989500cb18449cebb35d1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>127f00ee875989500cb18449cebb35d1</id>
+        <name>Reclamation Dunning Decision</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5a7f00ee875989500cb18449cebb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5a7f00ee875989500cb18449cebb35d1"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=127f00ee875989500cb18449cebb35d1^sys_idNOT IN127f00ee875989500cb18449cebb35d3,6a7f00ee875989500cb18449cebb35df"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ac21de81-be54-4911-9b6d-02301b8db53d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_state</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Current state</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Reclamation Dunning Decision">127f00ee875989500cb18449cebb35d1</model>
+        <model_id>127f00ee875989500cb18449cebb35d1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_127f00ee875989500cb18449cebb35d1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>127f00ee875989500cb18449cebb35d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6a7ac684-f307-42e5-8397-3e7b62e95706</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_hamp_hw_refresh_line_task</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>refresh_line_task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Refresh line task</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Reclamation Dunning Decision">127f00ee875989500cb18449cebb35d1</model>
+        <model_id>127f00ee875989500cb18449cebb35d1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_127f00ee875989500cb18449cebb35d1</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_hamp_hw_refresh_line_task">sn_hamp_hw_refresh_line_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6a7f00ee875989500cb18449cebb35df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=127f00ee875989500cb18449cebb35d1^sys_idNOT IN227f00ee875989500cb18449cebb35f6,2a7f40ee875989500cb18449cebb350a,6a7f00ee875989500cb18449cebb35ed"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=55431513-fc0f-4701-977f-4b28b0ad0102</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>comment</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Comment</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Reclamation Dunning Decision">127f00ee875989500cb18449cebb35d1</model>
+        <model_id>127f00ee875989500cb18449cebb35d1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>227f00ee875989500cb18449cebb35f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=6db5a27d-a01f-4ed8-802a-3a16222f18e5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sysevent_email_action</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>notification</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Notification</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Reclamation Dunning Decision">127f00ee875989500cb18449cebb35d1</model>
+        <model_id>127f00ee875989500cb18449cebb35d1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sysevent_email_action">sysevent_email_action</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2a7f40ee875989500cb18449cebb350a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=db70d34d-a066-4d7a-a8fd-70f8adc5e215</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>next_state</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Next state</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Reclamation Dunning Decision">127f00ee875989500cb18449cebb35d1</model>
+        <model_id>127f00ee875989500cb18449cebb35d1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6a7f00ee875989500cb18449cebb35ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=127f00ee875989500cb18449cebb35d1"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=127f00ee875989500cb18449cebb35d1"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=127f00ee875989500cb18449cebb35d1"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=127f00ee875989500cb18449cebb35d1^sys_idNOT IN627f40ee875989500cb18449cebb351a,627f40ee875989500cb18449cebb3522"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">874b8c2a875989500cb18449cebb355b</block>
+        <comment>Hardware Asset Reclamation Dunning</comment>
+        <connected_to/>
+        <decision_table display_value="Hardware Asset Reclamation Dunning">caa923162f110110f56257892799b6cc</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reclamation Dunning Decision">127f00ee875989500cb18449cebb35d1</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>627f40ee875989500cb18449cebb351a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <ui_id>871a2b61-4f1b-45b1-a509-5446e8e1df37</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=627f40ee875989500cb18449cebb351a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>627f40ee875989500cb18449cebb351a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>2e7f40ee875989500cb18449cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <value>caa923162f110110f56257892799b6cc</value>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>627f40ee875989500cb18449cebb351a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>6a7f40ee875989500cb18449cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Use Branches">7f2f5f9173020010cbfec9d234f6a79b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>627f40ee875989500cb18449cebb351a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>a67f40ee875989500cb18449cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <value>x_snc_ham_dunning_output_states</value>
+        <variable display_value="Answer Table">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>627f40ee875989500cb18449cebb351a</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>ee7f40ee875989500cb18449cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <value>Dunning state decision</value>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=627f40ee875989500cb18449cebb351a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer_table</field>
+        <id>627f40ee875989500cb18449cebb351a</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>ae7f40ee875989500cb18449cebb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_label</field>
+        <id>627f40ee875989500cb18449cebb351a</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>267f40ee875989500cb18449cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_table</field>
+        <id>627f40ee875989500cb18449cebb351a</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>627f40ee875989500cb18449cebb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_current_state</field>
+        <id>627f40ee875989500cb18449cebb351a</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>e27f40ee875989500cb18449cebb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table>var__m_sys_decision_input_caa923162f110110f56257892799b6cc</table>
+        <value>{{subflow.current_state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_refresh_line_task</field>
+        <id>627f40ee875989500cb18449cebb351a</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>a67f40ee875989500cb18449cebb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table>var__m_sys_decision_input_caa923162f110110f56257892799b6cc</table>
+        <value>{{subflow.refresh_line_task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d^id=627f40ee875989500cb18449cebb351a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1^id=627f40ee875989500cb18449cebb351a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=627f40ee875989500cb18449cebb351a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=627f40ee875989500cb18449cebb351a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">cf4b8c2a875989500cb18449cebb3565</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Reclamation Dunning Decision">127f00ee875989500cb18449cebb35d1</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>next_state,comment,notification</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>627f40ee875989500cb18449cebb3522</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <ui_id>630b8d35-ddee-4cae-a2d1-524e2a65fa5a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=627f40ee875989500cb18449cebb3522"/>
+    <sys_element_mapping action="delete_multiple" query="id=627f40ee875989500cb18449cebb3522"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>comment</field>
+        <id>627f40ee875989500cb18449cebb3522</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>627f40ee875989500cb18449cebb3526</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1</table>
+        <value>{{871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.comment}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>next_state</field>
+        <id>627f40ee875989500cb18449cebb3522</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>ea7f40ee875989500cb18449cebb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1</table>
+        <value>{{871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.next_state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>627f40ee875989500cb18449cebb3522</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_id>ae7f40ee875989500cb18449cebb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1</table>
+        <value>{{871a2b61-4f1b-45b1-a509-5446e8e1df37.answer.notification}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=627f40ee875989500cb18449cebb3522"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=627f40ee875989500cb18449cebb3522"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=127f00ee875989500cb18449cebb35d1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=127f00ee875989500cb18449cebb35d1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_127f00ee875989500cb18449cebb35d1^sys_idNOT IN527f00ee875989500cb18449cebb35dc,a67f00ee875989500cb18449cebb35e8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current_state</element>
+        <help/>
+        <hint/>
+        <label>Current state</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_127f00ee875989500cb18449cebb35d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>527f00ee875989500cb18449cebb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>refresh_line_task</element>
+        <help/>
+        <hint/>
+        <label>Refresh line task</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_127f00ee875989500cb18449cebb35d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a67f00ee875989500cb18449cebb35e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_127f00ee875989500cb18449cebb35d1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1^sys_idNOT IN227f40ee875989500cb18449cebb3507,2a7f00ee875989500cb18449cebb35f2,e67f40ee875989500cb18449cebb3513"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>comment</element>
+        <help/>
+        <hint/>
+        <label>Comment</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>227f40ee875989500cb18449cebb3507</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>next_state</element>
+        <help/>
+        <hint/>
+        <label>Next state</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2a7f00ee875989500cb18449cebb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>notification</element>
+        <help/>
+        <hint/>
+        <label>Notification</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 18:33:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e67f40ee875989500cb18449cebb3513</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 18:33:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_127f00ee875989500cb18449cebb35d1"/>
+    <sys_hub_flow action="update">
+        <sys_id>a3c8c426875989500cb18449cebb3581</sys_id>
+        <latest_snapshot>127f00ee875989500cb18449cebb35d1</latest_snapshot>
+    </sys_hub_flow>
+</record_update>
