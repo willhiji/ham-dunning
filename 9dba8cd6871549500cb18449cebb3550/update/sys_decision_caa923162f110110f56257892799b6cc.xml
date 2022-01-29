@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision">
+    <sys_decision action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <answer_table>x_snc_ham_dunning_output_states</answer_table>
+        <answer_type>reference</answer_type>
+        <label/>
+        <name>Hardware Asset Reclamation Dunning</name>
+        <reference_qualifier/>
+        <sys_class_name>sys_decision</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-29 15:48:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>caa923162f110110f56257892799b6cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Hardware Asset Reclamation Dunning</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sys_decision_caa923162f110110f56257892799b6cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-29 15:53:02</sys_updated_on>
+    </sys_decision>
+</record_update>
