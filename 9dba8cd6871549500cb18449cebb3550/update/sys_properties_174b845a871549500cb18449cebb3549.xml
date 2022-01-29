@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Loop interval for dunning execution (minutes)</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_ham_dunning.interval_minutes</name>
+        <read_roles/>
+        <suffix>interval_minutes</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-28 23:41:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>174b845a871549500cb18449cebb3549</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_ham_dunning.interval_minutes</sys_name>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sys_properties_174b845a871549500cb18449cebb3549</sys_update_name>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-28 23:41:44</sys_updated_on>
+        <type>integer</type>
+        <value>720</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=174b845a871549500cb18449cebb3549"/>
+</record_update>
