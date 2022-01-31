@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>eb715c52875549500cb18449cebb3559</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;
+    &lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;
+        &lt;action_insert&gt;false&lt;/action_insert&gt;
+        &lt;action_update&gt;false&lt;/action_update&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;advanced_condition/&gt;
+        &lt;affected_field_on_event/&gt;
+        &lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;
+        &lt;collection&gt;sn_hamp_hw_refresh_line_task&lt;/collection&gt;
+        &lt;condition/&gt;
+        &lt;content_type&gt;text/html&lt;/content_type&gt;
+        &lt;default_interval/&gt;
+        &lt;description/&gt;
+        &lt;digest_from/&gt;
+        &lt;digest_html/&gt;
+        &lt;digest_reply_to/&gt;
+        &lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;
+        &lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;
+        &lt;digest_subject/&gt;
+        &lt;digest_template/&gt;
+        &lt;digest_text/&gt;
+        &lt;digestable&gt;false&lt;/digestable&gt;
+        &lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;
+        &lt;event_parm_1&gt;false&lt;/event_parm_1&gt;
+        &lt;event_parm_2&gt;false&lt;/event_parm_2&gt;
+        &lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;
+        &lt;force_delivery&gt;false&lt;/force_delivery&gt;
+        &lt;from/&gt;
+        &lt;generation_type&gt;triggered&lt;/generation_type&gt;
+        &lt;importance/&gt;
+        &lt;include_attachments&gt;false&lt;/include_attachments&gt;
+        &lt;item&gt;event.parm1&lt;/item&gt;
+        &lt;item_table/&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;message/&gt;
+        &lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Please note that the asset: ${refresh_line.asset.display_name} assigned to ${refresh_line.asset.assigned_to} is scheduled to be reclaimed on ${refresh_line.scheduled_date}.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Multiple notifications have been sent but the asset has not been returned. Please return the asset now to avoid further escalation. If you need additional assistance, please contact technical support.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Thank you&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;
+        &lt;message_list/&gt;
+        &lt;message_text/&gt;
+        &lt;name&gt;Reclamation dunning final notice&lt;/name&gt;
+        &lt;omit_watermark&gt;false&lt;/omit_watermark&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;push_message_only&gt;false&lt;/push_message_only&gt;
+        &lt;recipient_fields&gt;refresh_line.asset.assigned_to,refresh_line.asset.assigned_to.manager,refresh_line.asset.assigned_to.manager.manager&lt;/recipient_fields&gt;
+        &lt;recipient_groups/&gt;
+        &lt;recipient_users/&gt;
+        &lt;reply_to/&gt;
+        &lt;send_self&gt;true&lt;/send_self&gt;
+        &lt;sms_alternate/&gt;
+        &lt;style/&gt;
+        &lt;subject&gt;FINAL NOTICE: ${refresh_line.asset.display_name} is scheduled to be reclaimed&lt;/subject&gt;
+        &lt;subscribable&gt;false&lt;/subscribable&gt;
+        &lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;jim.willhite&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-01-29 00:04:19&lt;/sys_created_on&gt;
+        &lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;eb715c52875549500cb18449cebb3559&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Reclamation dunning final notice&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="HAM Dunning" source="x_snc_ham_dunning"&gt;9dba8cd6871549500cb18449cebb3550&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;
+        &lt;sys_scope display_value="HAM Dunning"&gt;9dba8cd6871549500cb18449cebb3550&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_email_action_eb715c52875549500cb18449cebb3559&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;jim.willhite&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-01-29 00:07:30&lt;/sys_updated_on&gt;
+        &lt;sys_version&gt;2&lt;/sys_version&gt;
+        &lt;template/&gt;
+        &lt;type&gt;email&lt;/type&gt;
+        &lt;weight&gt;0&lt;/weight&gt;
+    &lt;/sysevent_email_action&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-31 17:17:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dd21960b879d4d500cb18449cebb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reclamation dunning final notice</sys_name>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sys_metadata_link_dd21960b879d4d500cb18449cebb3537</sys_update_name>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-31 17:17:28</sys_updated_on>
+        <tablename>sysevent_email_action</tablename>
+    </sys_metadata_link>
+</record_update>

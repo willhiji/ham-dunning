@@ -49,7 +49,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>refresh_line.asset.assigned_to,refresh_line.asset.assigned_to.manager</recipient_fields>
         <recipient_groups/>
-        <recipient_users>5b6e80664f0032008087e21e0210c7a0</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -63,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6d31dc12875549500cb18449cebb3531</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Reclamation dunning manager</sys_name>
         <sys_overrides/>
         <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
@@ -72,7 +72,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name>sysevent_email_action_6d31dc12875549500cb18449cebb3531</sys_update_name>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-01-29 00:04:47</sys_updated_on>
+        <sys_updated_on>2022-01-31 17:15:03</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
