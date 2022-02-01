@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Output states" max_length="40" name="x_snc_ham_dunning_output_states" sizeclass="4" type="collection">
+    <element label="Output states" max_length="40" name="x_snc_ham_dunning_output_states" sizeclass="5" type="collection">
         <element label="Comment" max_length="255" name="comment" type="string"/>
         <element display="true" label="Next state" max_length="40" name="next_state" type="string"/>
         <element label="Notification" max_length="32" name="notification" reference="sysevent_email_action" reference_qual="generation_type=triggered^EQ" reference_qual_condition="generation_type=triggered^EQ" type="reference"/>

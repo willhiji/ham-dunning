@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_ham_dunning_output_states" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comment</element>
+            <list_id display_value="x_snc_ham_dunning_output_states" element="NULL" name="x_snc_ham_dunning_output_states" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6c1890da875549500cb18449cebb354f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>jim.willhite</sys_created_by>
+            <sys_created_on>2022-01-29 00:33:03</sys_created_on>
+            <sys_id>681890da875549500cb18449cebb3551</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jim.willhite</sys_updated_by>
+            <sys_updated_on>2022-01-29 00:33:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>next_state</element>
+            <list_id display_value="x_snc_ham_dunning_output_states" element="NULL" name="x_snc_ham_dunning_output_states" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6c1890da875549500cb18449cebb354f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>jim.willhite</sys_created_by>
+            <sys_created_on>2022-01-29 00:33:03</sys_created_on>
+            <sys_id>e01890da875549500cb18449cebb3552</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jim.willhite</sys_updated_by>
+            <sys_updated_on>2022-01-29 00:33:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>notification</element>
+            <list_id display_value="x_snc_ham_dunning_output_states" element="NULL" name="x_snc_ham_dunning_output_states" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6c1890da875549500cb18449cebb354f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>jim.willhite</sys_created_by>
+            <sys_created_on>2022-01-29 00:33:03</sys_created_on>
+            <sys_id>e41890da875549500cb18449cebb3552</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jim.willhite</sys_updated_by>
+            <sys_updated_on>2022-01-29 00:33:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_ham_dunning_output_states</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>jim.willhite</sys_created_by>
+            <sys_created_on>2022-01-29 00:33:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c1890da875549500cb18449cebb354f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_ham_dunning_output_states</sys_name>
+            <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_ham_dunning_output_states_null</sys_update_name>
+            <sys_updated_by>jim.willhite</sys_updated_by>
+            <sys_updated_on>2022-01-29 00:33:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -11,11 +11,13 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-29 15:53:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>24aa6b562f110110f56257892799b634</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Refresh Line Task</sys_name>
             <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
             <sys_update_name>sys_documentation_var__m_sys_decision_input_caa923162f110110f56257892799b6cc_u_refresh_line_task_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
