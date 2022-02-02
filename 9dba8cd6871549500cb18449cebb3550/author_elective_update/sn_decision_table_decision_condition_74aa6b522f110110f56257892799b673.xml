@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input/>
+        <decision_table display_value="Hardware Asset Reclamation Dunning">caa923162f110110f56257892799b6cc</decision_table>
+        <default_operator>RELATIVE</default_operator>
+        <description/>
+        <field>u_refresh_line_task.refresh_line.scheduled_date</field>
+        <field_label>Refresh Line Tasks &gt; Refresh line &gt; Scheduled deployment date</field_label>
+        <field_parent_table>sn_hamp_hw_refresh_line</field_parent_table>
+        <label>Refresh Scheduled Date</label>
+        <order>200</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-29 15:53:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>74aa6b522f110110f56257892799b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_74aa6b522f110110f56257892799b673</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-29 15:53:02</sys_updated_on>
+        <type display_value="Date/Time">a54edbb1c0a80006014da86b91525bf3</type>
+    </sn_decision_table_decision_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</application>
+        <file_path/>
+        <instance_id>1f4d6bb96f9f5100869e7b2f5d3ee48d</instance_id>
+        <instance_name>empjwillhite</instance_name>
+        <name>sn_decision_table_decision_condition_74aa6b522f110110f56257892799b673</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input/><decision_table display_value="Hardware Asset Reclamation Dunning">caa923162f110110f56257892799b6cc</decision_table><default_operator>RELATIVE</default_operator><description/><field>u_refresh_line_task.refresh_line.scheduled_date</field><field_label>Refresh Line Tasks &gt; Refresh line &gt; Scheduled deployment date</field_label><field_parent_table>sn_hamp_hw_refresh_line</field_parent_table><label>Refresh Scheduled Date</label><order>200</order><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 15:53:02</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>74aa6b522f110110f56257892799b673</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope><sys_update_name>sn_decision_table_decision_condition_74aa6b522f110110f56257892799b673</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 15:53:02</sys_updated_on><type display_value="Date/Time">a54edbb1c0a80006014da86b91525bf3</type></sn_decision_table_decision_condition></record_update>]]></payload>
+        <payload_hash>676546151</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4f0b0c1a871549500cb18449cebb3503</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-02 17:03:08</sys_created_on>
+        <sys_id>7201a0ff87d141900cb18449cebb357c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ebb63d41e0000001</sys_recorded_at>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-02 17:03:08</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>be01a0ffe9d14190a32531e49887c47b</update_guid>
+        <update_guid_history>be01a0ffe9d14190a32531e49887c47b:0,741ce79e349589506e0cb148465aa423:-2046103042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2022-02-02 11:03:09">0f01e0ff87d141900cb18449cebb350b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-02 17:03:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>21e842fa1eb84f008e79f03215ad1000</sys_id>
+        <sys_metadata>74aa6b522f110110f56257892799b673</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_scope_delete display_value="">7a9da47c239340849e9ef5425fa1c0a4</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_74aa6b522f110110f56257892799b673</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_74aa6b522f110110f56257892799b673">7201a0ff87d141900cb18449cebb357c</sys_update_version>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-02 17:03:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
