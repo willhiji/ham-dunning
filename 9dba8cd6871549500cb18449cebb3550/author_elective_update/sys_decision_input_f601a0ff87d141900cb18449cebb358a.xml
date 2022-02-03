@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_decision_input">
+    <sys_decision_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.decision_table.data.DecisionTableVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_due_date</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>Due Date</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Hardware Asset Reclamation Dunning">caa923162f110110f56257892799b6cc</model>
+        <model_id>caa923162f110110f56257892799b6cc</model_id>
+        <model_table>sys_decision</model_table>
+        <name>var__m_sys_decision_input_caa923162f110110f56257892799b6cc</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_decision_input</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-02 17:03:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f601a0ff87d141900cb18449cebb358a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Due Date</sys_name>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sys_decision_input_f601a0ff87d141900cb18449cebb358a</sys_update_name>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-02 17:03:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_decision_input>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</application>
+        <file_path/>
+        <instance_id>1f4d6bb96f9f5100869e7b2f5d3ee48d</instance_id>
+        <instance_name>empjwillhite</instance_name>
+        <name>sys_decision_input_f601a0ff87d141900cb18449cebb358a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_decision_input"&gt;&lt;sys_decision_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.decision_table.data.DecisionTableVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_due_date&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;glide_date_time&lt;/internal_type&gt;&lt;label&gt;Due Date&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Hardware Asset Reclamation Dunning"&gt;caa923162f110110f56257892799b6cc&lt;/model&gt;&lt;model_id&gt;caa923162f110110f56257892799b6cc&lt;/model_id&gt;&lt;model_table&gt;sys_decision&lt;/model_table&gt;&lt;name&gt;var__m_sys_decision_input_caa923162f110110f56257892799b6cc&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_decision_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jim.willhite&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-02 17:03:09&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;f601a0ff87d141900cb18449cebb358a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Due Date&lt;/sys_name&gt;&lt;sys_package display_value="HAM Dunning" source="x_snc_ham_dunning"&gt;9dba8cd6871549500cb18449cebb3550&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="HAM Dunning"&gt;9dba8cd6871549500cb18449cebb3550&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_decision_input_f601a0ff87d141900cb18449cebb358a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jim.willhite&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-02 17:03:09&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_decision_input&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1719064818</payload_hash>
+        <record_name>Due Date</record_name>
+        <reverted_from/>
+        <source>4f0b0c1a871549500cb18449cebb3503</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-02 17:03:09</sys_created_on>
+        <sys_id>4b01a0ff87d141900cb18449cebb359e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ebb63d7230000001</sys_recorded_at>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-02 17:03:09</sys_updated_on>
+        <type>Decision Input</type>
+        <update_guid>4f01a0ffebd14190282a73758b366e9d</update_guid>
+        <update_guid_history>4f01a0ffebd14190282a73758b366e9d:-1719064818,8b01a0ff93d14190aad5ccc488ccc199:-1368623947,4701a0ffa5d14190f721bf7c2d614495:-1719064818</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 17:50:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_decision_input">sys_decision_input</sys_db_object>
+        <sys_id>afbbb0120da0431087fb4af012ada210</sys_id>
+        <sys_metadata>f601a0ff87d141900cb18449cebb358a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Due Date</sys_name>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_scope_delete display_value="">7a9da47c239340849e9ef5425fa1c0a4</sys_scope_delete>
+        <sys_update_name>sys_decision_input_f601a0ff87d141900cb18449cebb358a</sys_update_name>
+        <sys_update_version display_value="sys_decision_input_f601a0ff87d141900cb18449cebb358a">4b01a0ff87d141900cb18449cebb359e</sys_update_version>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 17:50:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

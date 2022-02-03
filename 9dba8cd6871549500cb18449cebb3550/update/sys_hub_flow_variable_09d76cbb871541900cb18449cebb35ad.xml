@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=c3b68e26-f346-48e2-adf9-0eba8243d2f9</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=13abe318-9255-42e8-b005-7c4f41b0d00e</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -27,21 +27,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>stop_dunning</element>
+        <element>current_dunning_state</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="">boolean</internal_type>
-        <label>Stop dunning</label>
+        <internal_type display_value="String">string</internal_type>
+        <label>Current dunning state</label>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <model display_value="Hardware Asset Reclamation Dunning">96505cee875989500cb18449cebb352d</model>
-        <model_id>96505cee875989500cb18449cebb352d</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_variable_96505cee875989500cb18449cebb352d</name>
+        <max_length>8000</max_length>
+        <model display_value="Hardware Asset Reclamation Dunning">0dd76cbb871541900cb18449cebb35a2</model>
+        <model_id>0dd76cbb871541900cb18449cebb35a2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_0dd76cbb871541900cb18449cebb35a2</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -59,18 +59,18 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_variable</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
-        <sys_created_on>2022-01-29 19:26:54</sys_created_on>
+        <sys_created_on>2022-02-02 17:32:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>e19bd4ee879989500cb18449cebb35c6</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Stop dunning</sys_name>
+        <sys_id>09d76cbb871541900cb18449cebb35ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Current dunning state</sys_name>
         <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_e19bd4ee879989500cb18449cebb35c6</sys_update_name>
+        <sys_update_name>sys_hub_flow_variable_09d76cbb871541900cb18449cebb35ad</sys_update_name>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-03 20:33:15</sys_updated_on>
+        <sys_updated_on>2022-02-02 17:32:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

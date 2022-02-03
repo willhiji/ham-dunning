@@ -11,12 +11,12 @@
         <copied_from_name/>
         <description/>
         <internal_name>hardware_asset_reclamation_dunning</internal_name>
-        <label_cache>[{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record.sys_created_on","label":"4 - Look Up Record➛Refresh Line Tasks Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"sys_created_on"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Refresh Line Tasks Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"number"},{"name":"f8d55ffc-2232-427f-9663-dd99423643fc.__dont_treat_as_error__","label":"11 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8d55ffc-2232-427f-9663-dd99423643fc.__action_status__","label":"11 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.table_name","label":"10 - Update Record➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.record","label":"10 - Update Record➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af3b45af-8799-4d32-8467-d33fb6836035.scheduled_end_date_time","label":"12 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"af3b45af-8799-4d32-8467-d33fb6836035.total_duration","label":"12 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record.refresh_line.stage","label":"4 - Look Up Record➛Refresh Line Tasks Record➛Refresh line➛Stage","reference":"","reference_display":"Stage","type":"choice","base_type":"choice","parent_table_name":"sn_hamp_hw_refresh_line","column_name":"stage","choices":[{"used":false,"label":"Plan","reference":false,"selected":false,"image":"","rawLabel":"Plan","missing":false,"value":"plan","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Schedule","reference":false,"selected":false,"image":"","rawLabel":"Schedule","missing":false,"value":"schedule","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Deploy","reference":false,"selected":false,"image":"","rawLabel":"Deploy","missing":false,"value":"deploy","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Reclaim","reference":false,"selected":false,"image":"","rawLabel":"Reclaim","missing":false,"value":"reclaim","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Completed","reference":false,"selected":false,"image":"","rawLabel":"Completed","missing":false,"value":"completed","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Cancelled","reference":false,"selected":false,"image":"","rawLabel":"Cancelled","missing":false,"value":"cancelled","parameters":{"name":"sn_hamp_hw_refresh_line"}}]},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Refresh Line Tasks Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"sys_id"},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Table","label":"4 - Look Up Record➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record","label":"4 - Look Up Record➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.stop_dunning","label":"Flow Variables➛Stop dunning","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c3b68e26-f346-48e2-adf9-0eba8243d2f9"}},{"name":"flow_variable.dunning_interval_ms","label":"Flow Variables➛Dunning interval ms","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5fdcad2f-faef-4990-8815-033881999e83"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.duration","label":"2 - Convert MS to Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c9b9be14-522e-4c00-8a63-2a6f0b717d54"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.__dont_treat_as_error__","label":"2 - Convert MS to Duration➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"ad2da237-37b6-49a8-8591-819c27a5a31f"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.__action_status__","label":"2 - Convert MS to Duration➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD28013396c2d589503743f423cab2cbed","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fa066496-5529-4863-b016-c2e4ed297833"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{}},{"name":"flow_variable.current_dunning_state","label":"Flow Variables➛Current dunning state","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"13abe318-9255-42e8-b005-7c4f41b0d00e"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.notification","label":"5 - Reclamation Dunning Decision➛Notification","reference":"sysevent_email_action","reference_display":"Notification","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6db5a27d-a01f-4ed8-802a-3a16222f18e5"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.comment","label":"5 - Reclamation Dunning Decision➛Comment","reference_display":"Comment","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"55431513-fc0f-4701-977f-4b28b0ad0102"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.next_state","label":"5 - Reclamation Dunning Decision➛Next state","reference_display":"Next state","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"db70d34d-a066-4d7a-a8fd-70f8adc5e215"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.context","label":"5 - Reclamation Dunning Decision➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"a4d96e02-2326-4919-9319-26daee199e00.__action_status__","label":"14 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a4d96e02-2326-4919-9319-26daee199e00.__dont_treat_as_error__","label":"14 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.current_past_due_ms","label":"Flow Variables➛Current past due ms","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6ab0752a-9ddf-4356-a58f-72d30ac79c51"}},{"name":"1cb6c0a3-01c5-490d-b5bb-6fe39db04714.duration","label":"6 - Convert MS to Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c9b9be14-522e-4c00-8a63-2a6f0b717d54"}},{"name":"1cb6c0a3-01c5-490d-b5bb-6fe39db04714.__dont_treat_as_error__","label":"6 - Convert MS to Duration➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"ad2da237-37b6-49a8-8591-819c27a5a31f"}},{"name":"1cb6c0a3-01c5-490d-b5bb-6fe39db04714.__action_status__","label":"6 - Convert MS to Duration➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD28013396c2d589503743f423cab2cbed","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fa066496-5529-4863-b016-c2e4ed297833"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record.sys_created_on","label":"4 - Look Up Record➛Refresh Line Tasks Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"sys_created_on"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Refresh Line Tasks Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"number"},{"name":"f8d55ffc-2232-427f-9663-dd99423643fc.__dont_treat_as_error__","label":"13 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8d55ffc-2232-427f-9663-dd99423643fc.__action_status__","label":"13 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.__dont_treat_as_error__","label":"12 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.__action_status__","label":"12 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.table_name","label":"12 - Update Record➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.record","label":"12 - Update Record➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af3b45af-8799-4d32-8467-d33fb6836035.scheduled_end_date_time","label":"14 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"af3b45af-8799-4d32-8467-d33fb6836035.total_duration","label":"14 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record.refresh_line.stage","label":"4 - Look Up Record➛Refresh Line Tasks Record➛Refresh line➛Stage","reference":"","reference_display":"Stage","type":"choice","base_type":"choice","parent_table_name":"sn_hamp_hw_refresh_line","column_name":"stage","choices":[{"used":false,"label":"Plan","reference":false,"selected":false,"image":"","rawLabel":"Plan","missing":false,"value":"plan","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Schedule","reference":false,"selected":false,"image":"","rawLabel":"Schedule","missing":false,"value":"schedule","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Deploy","reference":false,"selected":false,"image":"","rawLabel":"Deploy","missing":false,"value":"deploy","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Reclaim","reference":false,"selected":false,"image":"","rawLabel":"Reclaim","missing":false,"value":"reclaim","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Completed","reference":false,"selected":false,"image":"","rawLabel":"Completed","missing":false,"value":"completed","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Cancelled","reference":false,"selected":false,"image":"","rawLabel":"Cancelled","missing":false,"value":"cancelled","parameters":{"name":"sn_hamp_hw_refresh_line"}}]},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Refresh Line Tasks Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"sys_id"},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Table","label":"4 - Look Up Record➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record","label":"4 - Look Up Record➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.stop_dunning","label":"Flow Variables➛Stop dunning","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c3b68e26-f346-48e2-adf9-0eba8243d2f9"}},{"name":"flow_variable.dunning_interval_ms","label":"Flow Variables➛Dunning interval ms","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5fdcad2f-faef-4990-8815-033881999e83"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.duration","label":"2 - Convert MS to Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c9b9be14-522e-4c00-8a63-2a6f0b717d54"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.__dont_treat_as_error__","label":"2 - Convert MS to Duration➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"ad2da237-37b6-49a8-8591-819c27a5a31f"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.__action_status__","label":"2 - Convert MS to Duration➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD28013396c2d589503743f423cab2cbed","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fa066496-5529-4863-b016-c2e4ed297833"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{}},{"name":"flow_variable.current_dunning_state","label":"Flow Variables➛Current dunning state","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"13abe318-9255-42e8-b005-7c4f41b0d00e"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.notification","label":"7 - Reclamation Dunning Decision➛Notification","reference":"sysevent_email_action","reference_display":"Notification","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6db5a27d-a01f-4ed8-802a-3a16222f18e5"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.comment","label":"7 - Reclamation Dunning Decision➛Comment","reference_display":"Comment","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"55431513-fc0f-4701-977f-4b28b0ad0102"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.next_state","label":"7 - Reclamation Dunning Decision➛Next state","reference_display":"Next state","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"db70d34d-a066-4d7a-a8fd-70f8adc5e215"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.context","label":"7 - Reclamation Dunning Decision➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"a4d96e02-2326-4919-9319-26daee199e00.__action_status__","label":"16 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a4d96e02-2326-4919-9319-26daee199e00.__dont_treat_as_error__","label":"16 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>e6c3e4ea87d989500cb18449cebb35c2</master_snapshot>
         <name>Hardware Asset Reclamation Dunning</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>b44c6c33875541900cb18449cebb35ed</remote_trigger_id>
+        <remote_trigger_id>12ba164887e1c1900cb18449cebb3558</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>96505cee875989500cb18449cebb352d</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Hardware Asset Reclamation Dunning</sys_name>
         <sys_overrides/>
         <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name>sys_hub_flow_96505cee875989500cb18449cebb352d</sys_update_name>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:11</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=96505cee875989500cb18449cebb352d"/>
@@ -58,10 +58,10 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
-        <sys_created_on>2022-02-02 17:52:09</sys_created_on>
+        <sys_created_on>2022-02-03 20:33:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>b44c6c33875541900cb18449cebb35ed</sys_id>
+        <sys_id>12ba164887e1c1900cb18449cebb3558</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
@@ -71,34 +71,34 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:09</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:15</sys_updated_on>
         <table>sn_hamp_hw_refresh_line_task</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"704c6c33875541900cb18449cebb35ee","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"daba164887e1c1900cb18449cebb3558","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>96505cee875989500cb18449cebb352d</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>jim.willhite</sys_created_by>
-        <sys_created_on>2022-02-02 17:52:09</sys_created_on>
-        <sys_id>704c6c33875541900cb18449cebb35ee</sys_id>
+        <sys_created_on>2022-02-03 20:33:15</sys_created_on>
+        <sys_id>daba164887e1c1900cb18449cebb3558</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:09</sys_updated_on>
-        <trigger display_value="">b44c6c33875541900cb18449cebb35ed</trigger>
+        <sys_updated_on>2022-02-03 20:33:15</sys_updated_on>
+        <trigger display_value="">12ba164887e1c1900cb18449cebb3558</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>704c6c33875541900cb18449cebb35ee</document_id>
+        <document_id>daba164887e1c1900cb18449cebb3558</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>jim.willhite</sys_created_by>
-        <sys_created_on>2022-02-02 17:52:09</sys_created_on>
-        <sys_id>784c6c33875541900cb18449cebb35ee</sys_id>
+        <sys_created_on>2022-02-03 20:33:15</sys_created_on>
+        <sys_id>d2ba164887e1c1900cb18449cebb3559</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=96505cee875989500cb18449cebb352d^sys_idNOT IN704c6c33875541900cb18449cebb35ee"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=96505cee875989500cb18449cebb352d^sys_idNOT INdaba164887e1c1900cb18449cebb3558"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=96505cee875989500cb18449cebb352d^sys_idNOT IN619bd4ee879989500cb18449cebb35bb"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -111,7 +111,7 @@
         <sys_created_on>2022-01-29 19:26:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>619bd4ee879989500cb18449cebb35bb</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -119,7 +119,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:09</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:15</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -239,7 +239,7 @@
         <sys_created_on>2022-01-29 19:26:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>619bd4ee879989500cb18449cebb35b1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -247,7 +247,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:09</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -322,7 +322,7 @@
         <sys_created_on>2022-01-29 19:26:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a19bd4ee879989500cb18449cebb35b6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -330,7 +330,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:09</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -344,7 +344,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=96505cee875989500cb18449cebb352d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=96505cee875989500cb18449cebb352d"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=96505cee875989500cb18449cebb352d^sys_idNOT IN3d9bd4ee879989500cb18449cebb35e6,469b18ee879989500cb18449cebb356f,4e9b18ee879989500cb18449cebb3567,79eedce287d989500cb18449cebb3578,fd9b18ee879989500cb18449cebb3506"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=96505cee875989500cb18449cebb352d^sys_idNOT IN3d9bd4ee879989500cb18449cebb35e6,469b18ee879989500cb18449cebb356f,4e9b18ee879989500cb18449cebb3567,79eedce287d989500cb18449cebb3578,e1b59e4087e1c1900cb18449cebb3581,fd9b18ee879989500cb18449cebb3506"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -361,15 +361,15 @@
         <sys_created_on>2022-01-29 19:26:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3d9bd4ee879989500cb18449cebb35e6</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-02-02 18:09:39</sys_updated_on>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>852ed69b-0ed5-4f6d-b709-efe6e658e667</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3d9bd4ee879989500cb18449cebb35e6"/>
@@ -411,22 +411,22 @@
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Asset Reclamation Dunning">96505cee875989500cb18449cebb352d</flow>
-        <order>11</order>
+        <order>13</order>
         <parent_ui_id>578982cf-da70-4580-85bb-a8e4b2796fa7</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
         <sys_created_on>2022-01-29 19:26:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>469b18ee879989500cb18449cebb356f</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-02-02 18:09:39</sys_updated_on>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>f8d55ffc-2232-427f-9663-dd99423643fc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=469b18ee879989500cb18449cebb356f"/>
@@ -492,22 +492,22 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Asset Reclamation Dunning">96505cee875989500cb18449cebb352d</flow>
-        <order>10</order>
+        <order>12</order>
         <parent_ui_id>578982cf-da70-4580-85bb-a8e4b2796fa7</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
         <sys_created_on>2022-01-29 19:26:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4e9b18ee879989500cb18449cebb3567</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-02-02 18:09:39</sys_updated_on>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>d6cf1c83-9833-46d2-88bc-a8a5aecceabf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4e9b18ee879989500cb18449cebb3567"/>
@@ -573,22 +573,22 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Asset Reclamation Dunning">96505cee875989500cb18449cebb352d</flow>
-        <order>14</order>
+        <order>16</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
         <sys_created_on>2022-01-29 19:41:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>79eedce287d989500cb18449cebb3578</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-02-02 18:09:39</sys_updated_on>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>a4d96e02-2326-4919-9319-26daee199e00</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=79eedce287d989500cb18449cebb3578"/>
@@ -610,6 +610,63 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Convert MS to Duration">5001339687d589500cb18449cebb35ce</action_type>
+        <action_type_parent/>
+        <comment>Convert Current past due ms to Duration</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Hardware Asset Reclamation Dunning">96505cee875989500cb18449cebb352d</flow>
+        <order>6</order>
+        <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e1b59e4087e1c1900cb18449cebb3581</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
+        <ui_id>1cb6c0a3-01c5-490d-b5bb-6fe39db04714</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e1b59e4087e1c1900cb18449cebb3581"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e1b59e4087e1c1900cb18449cebb3581</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:21</sys_created_on>
+        <sys_id>e9b59e4087e1c1900cb18449cebb3582</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:11:21</sys_updated_on>
+        <value/>
+        <variable display_value="Milliseconds">d401339687d589500cb18449cebb35d1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e1b59e4087e1c1900cb18449cebb3581"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>milliseconds</field>
+        <id>e1b59e4087e1c1900cb18449cebb3581</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:21</sys_created_on>
+        <sys_id>69b59e4087e1c1900cb18449cebb3582</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:11:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5001339687d589500cb18449cebb35ce</table>
+        <value>{{flow_variable.current_past_due_ms}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e1b59e4087e1c1900cb18449cebb3581"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e1b59e4087e1c1900cb18449cebb3581"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
@@ -623,15 +680,15 @@
         <sys_created_on>2022-01-29 19:26:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fd9b18ee879989500cb18449cebb3506</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-02-02 18:09:39</sys_updated_on>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>4cfbf711-d2da-4321-a049-c0ab87607870</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fd9b18ee879989500cb18449cebb3506"/>
@@ -669,7 +726,7 @@
         <flow display_value="Hardware Asset Reclamation Dunning">96505cee875989500cb18449cebb352d</flow>
         <inputs/>
         <inputs/>
-        <order>5</order>
+        <order>7</order>
         <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
         <subflow display_value="Reclamation Dunning Decision">127f00ee875989500cb18449cebb35d1</subflow>
         <subflow_instance_inputs/>
@@ -678,7 +735,7 @@
         <sys_created_on>2022-01-29 19:26:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>359b18ee879989500cb18449cebb3509</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -686,10 +743,24 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:10</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>4658d40a-8bc0-4fac-8213-6781ab202635</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=359b18ee879989500cb18449cebb3509"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>359b18ee879989500cb18449cebb3509</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:21</sys_created_on>
+        <sys_id>a5b59e4087e1c1900cb18449cebb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:11:21</sys_updated_on>
+        <value/>
+        <variable display_value="Past Due Duration">09c206088761c1900cb18449cebb3502</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_sub_flow_instance</document>
         <document_key>359b18ee879989500cb18449cebb3509</document_key>
@@ -703,20 +774,6 @@
         <sys_updated_on>2022-01-29 19:26:55</sys_updated_on>
         <value>1</value>
         <variable display_value="Wait For Completion">bd9b18ee879989500cb18449cebb350a</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_sub_flow_instance</document>
-        <document_key>359b18ee879989500cb18449cebb3509</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>jim.willhite</sys_created_by>
-        <sys_created_on>2022-02-02 17:27:49</sys_created_on>
-        <sys_id>d0b62c3b871541900cb18449cebb35f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:27:49</sys_updated_on>
-        <value/>
-        <variable display_value="Due date">94656cb7871541900cb18449cebb354a</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=359b18ee879989500cb18449cebb3509"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -742,6 +799,18 @@
         <sys_updated_on>2022-02-02 17:27:49</sys_updated_on>
         <table>var__m_sys_hub_flow_input_127f00ee875989500cb18449cebb35d1</table>
         <value>{{4cfbf711-d2da-4321-a049-c0ab87607870.Record.sys_created_on}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>past_due_duration</field>
+        <id>359b18ee879989500cb18449cebb3509</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:21</sys_created_on>
+        <sys_id>25b59e4087e1c1900cb18449cebb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:11:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_127f00ee875989500cb18449cebb35d1</table>
+        <value>{{1cb6c0a3-01c5-490d-b5bb-6fe39db04714.duration}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>refresh_line_task</field>
@@ -853,7 +922,7 @@
         <xml_view>false</xml_view>
     </sys_hub_sub_flow_instance_inputs>
     <sys_hub_input_scripts action="delete_multiple" query="instance=359b18ee879989500cb18449cebb3509"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=96505cee875989500cb18449cebb352d^sys_idNOT IN0a9b18ee879989500cb18449cebb3552,0e9b18ee879989500cb18449cebb3557,2d9bd4ee879989500cb18449cebb35ce,3d9bd4ee879989500cb18449cebb35e9,4a9b18ee879989500cb18449cebb355f,c29b18ee879989500cb18449cebb355b,f99bd4ee879989500cb18449cebb35ed"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=96505cee875989500cb18449cebb352d^sys_idNOT IN0a9b18ee879989500cb18449cebb3552,0e9b18ee879989500cb18449cebb3557,2d9bd4ee879989500cb18449cebb35ce,3d9bd4ee879989500cb18449cebb35e9,4a9b18ee879989500cb18449cebb355f,69b59e4087e1c1900cb18449cebb3578,c29b18ee879989500cb18449cebb355b,f99bd4ee879989500cb18449cebb35ed"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">429b18ee879989500cb18449cebb3552</block>
         <comment/>
@@ -868,7 +937,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>6</order>
+        <order>8</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
@@ -877,7 +946,7 @@
         <sys_created_on>2022-01-29 19:26:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0a9b18ee879989500cb18449cebb3552</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -885,7 +954,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:10</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>75969229-1a98-4128-bd86-fe43ed0c57d9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -920,7 +989,7 @@
         <flow_variables_assigned>stop_dunning</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>7</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>75969229-1a98-4128-bd86-fe43ed0c57d9</parent_ui_id>
@@ -929,7 +998,7 @@
         <sys_created_on>2022-01-29 19:26:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0e9b18ee879989500cb18449cebb3557</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -937,7 +1006,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:10</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>81f81f7d-1701-4533-be0e-aef86812eea3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -970,7 +1039,7 @@
         <extended_inputs/>
         <flow display_value="Hardware Asset Reclamation Dunning">96505cee875989500cb18449cebb352d</flow>
         <flow_variable/>
-        <flow_variables_assigned>current_dunning_state,stop_dunning,dunning_interval_ms</flow_variables_assigned>
+        <flow_variables_assigned>current_dunning_state,stop_dunning,dunning_interval_ms,current_past_due_ms</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>1</order>
@@ -982,7 +1051,7 @@
         <sys_created_on>2022-01-29 19:26:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2d9bd4ee879989500cb18449cebb35ce</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -990,7 +1059,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:10</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>3be1eb95-5d7b-46cf-b81f-c5504f099386</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1016,6 +1085,20 @@
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:21</sys_created_on>
+        <sys_id>a1b59e4087e1c1900cb18449cebb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:11:21</sys_updated_on>
+        <value/>
+        <variable display_value="Current past due ms">15b59e4087e1c1900cb18449cebb355d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2d9bd4ee879989500cb18449cebb35ce</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
         <sys_created_on>2022-01-29 19:26:54</sys_created_on>
         <sys_id>f99bd4ee879989500cb18449cebb35e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -1026,7 +1109,7 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_96505cee875989500cb18449cebb352d^id=2d9bd4ee879989500cb18449cebb35ce"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2d9bd4ee879989500cb18449cebb35ce"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=2d9bd4ee879989500cb18449cebb35ce^sys_idNOT IN699bd4ee879989500cb18449cebb35dc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2d9bd4ee879989500cb18449cebb35ce^sys_idNOT IN699bd4ee879989500cb18449cebb35dc,ddb59e4087e1c1900cb18449cebb3569"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
         <input_name>dunning_interval_ms</input_name>
@@ -1039,6 +1122,19 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jim.willhite</sys_updated_by>
         <sys_updated_on>2022-01-29 19:26:54</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>current_past_due_ms</input_name>
+        <instance>2d9bd4ee879989500cb18449cebb35ce</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"current_past_due_ms":{"scriptActive":true,"script":"// Calculate milliseconds since current record was created\nvar created_on_gdt \u003d new GlideDateTime(fd_data.trigger.current.getValue(\u0027sys_created_on\u0027));\nvar current_gdt \u003d new GlideDateTime(); // Current DateTime\nvar duration \u003d GlideDateTime.subtract(created_on_gdt, current_gdt );\n\nreturn duration.getNumericValue();"}}</script>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:20</sys_created_on>
+        <sys_id>ddb59e4087e1c1900cb18449cebb3569</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:11:20</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">759bd4ee879989500cb18449cebb35e9</block>
@@ -1063,7 +1159,7 @@
         <sys_created_on>2022-01-29 19:26:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3d9bd4ee879989500cb18449cebb35e9</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1071,7 +1167,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:10</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1107,7 +1203,7 @@
         <flow_variables_assigned>current_dunning_state</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>9</order>
+        <order>11</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>578982cf-da70-4580-85bb-a8e4b2796fa7</parent_ui_id>
@@ -1116,7 +1212,7 @@
         <sys_created_on>2022-01-29 19:26:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4a9b18ee879989500cb18449cebb355f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1124,7 +1220,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:10</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>84cf1e40-2175-4790-885d-71a6e7e1bf6e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1146,6 +1242,72 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=4a9b18ee879989500cb18449cebb355f"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4a9b18ee879989500cb18449cebb355f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">adb59e4087e1c1900cb18449cebb3577</block>
+        <comment>Update Current past due ms</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Hardware Asset Reclamation Dunning">96505cee875989500cb18449cebb352d</flow>
+        <flow_variable/>
+        <flow_variables_assigned>current_past_due_ms</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>69b59e4087e1c1900cb18449cebb3578</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
+        <ui_id>35e9224e-96fb-49c8-bfbf-889a20af0330</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=69b59e4087e1c1900cb18449cebb3578"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>69b59e4087e1c1900cb18449cebb3578</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:21</sys_created_on>
+        <sys_id>a5b59e4087e1c1900cb18449cebb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:11:21</sys_updated_on>
+        <value/>
+        <variable display_value="Current past due ms">15b59e4087e1c1900cb18449cebb355d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_96505cee875989500cb18449cebb352d^id=69b59e4087e1c1900cb18449cebb3578"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=69b59e4087e1c1900cb18449cebb3578"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=69b59e4087e1c1900cb18449cebb3578^sys_idNOT INe9b59e4087e1c1900cb18449cebb3579"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>current_past_due_ms</input_name>
+        <instance>69b59e4087e1c1900cb18449cebb3578</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"current_past_due_ms":{"scriptActive":true,"script":"// Calculate milliseconds since current record was created\nvar created_on_gdt \u003d new GlideDateTime(fd_data.trigger.current.getValue(\u0027sys_created_on\u0027));\nvar current_gdt \u003d new GlideDateTime(); // Current DateTime\nvar duration \u003d GlideDateTime.subtract(created_on_gdt, current_gdt );\n\nreturn duration.getNumericValue();"}}</script>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:21</sys_created_on>
+        <sys_id>e9b59e4087e1c1900cb18449cebb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:11:21</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">0e9b18ee879989500cb18449cebb355a</block>
         <comment>Next state is not NULL</comment>
         <connected_to>75969229-1a98-4128-bd86-fe43ed0c57d9</connected_to>
@@ -1159,7 +1321,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>8</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
@@ -1168,7 +1330,7 @@
         <sys_created_on>2022-01-29 19:26:55</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c29b18ee879989500cb18449cebb355b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1176,7 +1338,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:10</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>578982cf-da70-4580-85bb-a8e4b2796fa7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1212,7 +1374,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
-        <order>12</order>
+        <order>14</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
@@ -1221,7 +1383,7 @@
         <sys_created_on>2022-01-29 19:26:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f99bd4ee879989500cb18449cebb35ed</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1229,7 +1391,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:11</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:16</sys_updated_on>
         <ui_id>af3b45af-8799-4d32-8467-d33fb6836035</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1360,7 +1522,90 @@
         <transform_definition_id display_value="trim">dd9e9d44c7233300dbf8772bf4c2607a</transform_definition_id>
         <ui_id>2b1d7e92-ea03-4be1-b6e0-a44a0207b619</ui_id>
     </sys_hub_pill_compound>
-    <sys_hub_flow_variable action="delete_multiple" query="model=96505cee875989500cb18449cebb352d^sys_idNOT IN6d9bd4ee879989500cb18449cebb35c2,e19bd4ee879989500cb18449cebb35be,e19bd4ee879989500cb18449cebb35c6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=96505cee875989500cb18449cebb352d^sys_idNOT IN15b59e4087e1c1900cb18449cebb355d,6d9bd4ee879989500cb18449cebb35c2,e19bd4ee879989500cb18449cebb35be,e19bd4ee879989500cb18449cebb35c6"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=6ab0752a-9ddf-4356-a58f-72d30ac79c51</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_past_due_ms</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Current past due ms</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Hardware Asset Reclamation Dunning">96505cee875989500cb18449cebb352d</model>
+        <model_id>96505cee875989500cb18449cebb352d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_96505cee875989500cb18449cebb352d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:11:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>15b59e4087e1c1900cb18449cebb355d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Current past due ms</sys_name>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_15b59e4087e1c1900cb18449cebb355d</sys_update_name>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:11:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1590,7 +1835,7 @@
         <sys_created_on>2022-01-29 19:26:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e19bd4ee879989500cb18449cebb35c6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Stop dunning</sys_name>
         <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
         <sys_policy/>
@@ -1598,7 +1843,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name>sys_hub_flow_variable_e19bd4ee879989500cb18449cebb35c6</sys_update_name>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:09</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1669,14 +1914,14 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"afc368ea87d989500cb18449cebb3524","name":"plan","plan_signature":null}}</plan>
         <plan_id>96505cee875989500cb18449cebb352d</plan_id>
-        <snapshot>b04078b7875541900cb18449cebb355a</snapshot>
+        <snapshot>e6c3e4ea87d989500cb18449cebb35c2</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
         <sys_created_on>2022-01-29 20:02:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>afc368ea87d989500cb18449cebb3524</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1685,8 +1930,8 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:09</sys_updated_on>
-        <trigger display_value="">b44c6c33875541900cb18449cebb35ed</trigger>
+        <sys_updated_on>2022-02-03 20:33:15</sys_updated_on>
+        <trigger display_value="">12ba164887e1c1900cb18449cebb3558</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=96505cee875989500cb18449cebb352d"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -1700,7 +1945,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>hardware_asset_reclamation_dunning</internal_name>
-        <label_cache>[{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record.sys_created_on","label":"4 - Look Up Record➛Refresh Line Tasks Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"sys_created_on"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Refresh Line Tasks Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"number"},{"name":"f8d55ffc-2232-427f-9663-dd99423643fc.__dont_treat_as_error__","label":"11 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8d55ffc-2232-427f-9663-dd99423643fc.__action_status__","label":"11 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.table_name","label":"10 - Update Record➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.record","label":"10 - Update Record➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af3b45af-8799-4d32-8467-d33fb6836035.scheduled_end_date_time","label":"12 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"af3b45af-8799-4d32-8467-d33fb6836035.total_duration","label":"12 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record.refresh_line.stage","label":"4 - Look Up Record➛Refresh Line Tasks Record➛Refresh line➛Stage","reference":"","reference_display":"Stage","type":"choice","base_type":"choice","parent_table_name":"sn_hamp_hw_refresh_line","column_name":"stage","choices":[{"used":false,"label":"Plan","reference":false,"selected":false,"image":"","rawLabel":"Plan","missing":false,"value":"plan","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Schedule","reference":false,"selected":false,"image":"","rawLabel":"Schedule","missing":false,"value":"schedule","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Deploy","reference":false,"selected":false,"image":"","rawLabel":"Deploy","missing":false,"value":"deploy","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Reclaim","reference":false,"selected":false,"image":"","rawLabel":"Reclaim","missing":false,"value":"reclaim","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Completed","reference":false,"selected":false,"image":"","rawLabel":"Completed","missing":false,"value":"completed","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Cancelled","reference":false,"selected":false,"image":"","rawLabel":"Cancelled","missing":false,"value":"cancelled","parameters":{"name":"sn_hamp_hw_refresh_line"}}]},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Refresh Line Tasks Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"sys_id"},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Table","label":"4 - Look Up Record➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record","label":"4 - Look Up Record➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.stop_dunning","label":"Flow Variables➛Stop dunning","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c3b68e26-f346-48e2-adf9-0eba8243d2f9"}},{"name":"flow_variable.dunning_interval_ms","label":"Flow Variables➛Dunning interval ms","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5fdcad2f-faef-4990-8815-033881999e83"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.duration","label":"2 - Convert MS to Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c9b9be14-522e-4c00-8a63-2a6f0b717d54"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.__dont_treat_as_error__","label":"2 - Convert MS to Duration➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"ad2da237-37b6-49a8-8591-819c27a5a31f"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.__action_status__","label":"2 - Convert MS to Duration➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD28013396c2d589503743f423cab2cbed","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fa066496-5529-4863-b016-c2e4ed297833"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{}},{"name":"flow_variable.current_dunning_state","label":"Flow Variables➛Current dunning state","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"13abe318-9255-42e8-b005-7c4f41b0d00e"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.notification","label":"5 - Reclamation Dunning Decision➛Notification","reference":"sysevent_email_action","reference_display":"Notification","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6db5a27d-a01f-4ed8-802a-3a16222f18e5"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.comment","label":"5 - Reclamation Dunning Decision➛Comment","reference_display":"Comment","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"55431513-fc0f-4701-977f-4b28b0ad0102"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.next_state","label":"5 - Reclamation Dunning Decision➛Next state","reference_display":"Next state","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"db70d34d-a066-4d7a-a8fd-70f8adc5e215"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.context","label":"5 - Reclamation Dunning Decision➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"a4d96e02-2326-4919-9319-26daee199e00.__action_status__","label":"14 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a4d96e02-2326-4919-9319-26daee199e00.__dont_treat_as_error__","label":"14 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"flow_variable.current_past_due_ms","label":"Flow Variables➛Current past due ms","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6ab0752a-9ddf-4356-a58f-72d30ac79c51"}},{"name":"1cb6c0a3-01c5-490d-b5bb-6fe39db04714.duration","label":"6 - Convert MS to Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c9b9be14-522e-4c00-8a63-2a6f0b717d54"}},{"name":"1cb6c0a3-01c5-490d-b5bb-6fe39db04714.__dont_treat_as_error__","label":"6 - Convert MS to Duration➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"ad2da237-37b6-49a8-8591-819c27a5a31f"}},{"name":"1cb6c0a3-01c5-490d-b5bb-6fe39db04714.__action_status__","label":"6 - Convert MS to Duration➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD28013396c2d589503743f423cab2cbed","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fa066496-5529-4863-b016-c2e4ed297833"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record.sys_created_on","label":"4 - Look Up Record➛Refresh Line Tasks Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"sys_created_on"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Refresh Line Tasks Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"number"},{"name":"f8d55ffc-2232-427f-9663-dd99423643fc.__dont_treat_as_error__","label":"13 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8d55ffc-2232-427f-9663-dd99423643fc.__action_status__","label":"13 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.__dont_treat_as_error__","label":"12 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.__action_status__","label":"12 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.table_name","label":"12 - Update Record➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d6cf1c83-9833-46d2-88bc-a8a5aecceabf.record","label":"12 - Update Record➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"af3b45af-8799-4d32-8467-d33fb6836035.scheduled_end_date_time","label":"14 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"af3b45af-8799-4d32-8467-d33fb6836035.total_duration","label":"14 - Wait for a duration of time➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record.refresh_line.stage","label":"4 - Look Up Record➛Refresh Line Tasks Record➛Refresh line➛Stage","reference":"","reference_display":"Stage","type":"choice","base_type":"choice","parent_table_name":"sn_hamp_hw_refresh_line","column_name":"stage","choices":[{"used":false,"label":"Plan","reference":false,"selected":false,"image":"","rawLabel":"Plan","missing":false,"value":"plan","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Schedule","reference":false,"selected":false,"image":"","rawLabel":"Schedule","missing":false,"value":"schedule","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Deploy","reference":false,"selected":false,"image":"","rawLabel":"Deploy","missing":false,"value":"deploy","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Reclaim","reference":false,"selected":false,"image":"","rawLabel":"Reclaim","missing":false,"value":"reclaim","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Completed","reference":false,"selected":false,"image":"","rawLabel":"Completed","missing":false,"value":"completed","parameters":{"name":"sn_hamp_hw_refresh_line"}},{"used":false,"label":"Cancelled","reference":false,"selected":false,"image":"","rawLabel":"Cancelled","missing":false,"value":"cancelled","parameters":{"name":"sn_hamp_hw_refresh_line"}}]},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Refresh Line Tasks Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hamp_hw_refresh_line_task","column_name":"sys_id"},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Table","label":"4 - Look Up Record➛Refresh Line Tasks Table","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4cfbf711-d2da-4321-a049-c0ab87607870.Record","label":"4 - Look Up Record➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.stop_dunning","label":"Flow Variables➛Stop dunning","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c3b68e26-f346-48e2-adf9-0eba8243d2f9"}},{"name":"flow_variable.dunning_interval_ms","label":"Flow Variables➛Dunning interval ms","reference":"","reference_display":"","type":"integer","base_type":"integer","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5fdcad2f-faef-4990-8815-033881999e83"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.duration","label":"2 - Convert MS to Duration➛Duration","reference_display":"Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c9b9be14-522e-4c00-8a63-2a6f0b717d54"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.__dont_treat_as_error__","label":"2 - Convert MS to Duration➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"ad2da237-37b6-49a8-8591-819c27a5a31f"}},{"name":"852ed69b-0ed5-4f6d-b709-efe6e658e667.__action_status__","label":"2 - Convert MS to Duration➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD28013396c2d589503743f423cab2cbed","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"fa066496-5529-4863-b016-c2e4ed297833"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Refresh Line Tasks Record","reference":"sn_hamp_hw_refresh_line_task","reference_display":"Refresh Line Tasks","type":"reference","base_type":"reference","attributes":{}},{"name":"flow_variable.current_dunning_state","label":"Flow Variables➛Current dunning state","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"13abe318-9255-42e8-b005-7c4f41b0d00e"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.notification","label":"7 - Reclamation Dunning Decision➛Notification","reference":"sysevent_email_action","reference_display":"Notification","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6db5a27d-a01f-4ed8-802a-3a16222f18e5"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.comment","label":"7 - Reclamation Dunning Decision➛Comment","reference_display":"Comment","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"55431513-fc0f-4701-977f-4b28b0ad0102"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.next_state","label":"7 - Reclamation Dunning Decision➛Next state","reference_display":"Next state","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"db70d34d-a066-4d7a-a8fd-70f8adc5e215"}},{"name":"4658d40a-8bc0-4fac-8213-6781ab202635.context","label":"7 - Reclamation Dunning Decision➛Context","reference":"sys_flow_context","reference_display":"Flow engine context","type":"reference","base_type":"reference","attributes":{}},{"name":"a4d96e02-2326-4919-9319-26daee199e00.__action_status__","label":"16 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a4d96e02-2326-4919-9319-26daee199e00.__dont_treat_as_error__","label":"16 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Hardware Asset Reclamation Dunning</name>
         <natlang/>
@@ -1717,7 +1962,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>e6c3e4ea87d989500cb18449cebb35c2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1726,7 +1971,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:07</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_variable_value action="delete_multiple" query="document_key=e6c3e4ea87d989500cb18449cebb35c2"/>
@@ -1742,7 +1987,7 @@
         <sys_created_on>2022-01-29 20:02:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0fc328ea87d989500cb18449cebb3590</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1750,7 +1995,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:09</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:15</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1870,7 +2115,7 @@
         <sys_created_on>2022-01-29 20:02:44</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2ec3e4ea87d989500cb18449cebb35d9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1878,7 +2123,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1953,7 +2198,7 @@
         <sys_created_on>2022-01-29 20:02:44</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>eec3e4ea87d989500cb18449cebb35c4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1961,7 +2206,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1975,7 +2220,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=e6c3e4ea87d989500cb18449cebb35c2"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e6c3e4ea87d989500cb18449cebb35c2"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=e6c3e4ea87d989500cb18449cebb35c2^sys_idNOT IN47c328ea87d989500cb18449cebb3580,4fc328ea87d989500cb18449cebb3552,87c328ea87d989500cb18449cebb358f,cfc328ea87d989500cb18449cebb353a,cfc328ea87d989500cb18449cebb3587"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e6c3e4ea87d989500cb18449cebb35c2^sys_idNOT IN47c328ea87d989500cb18449cebb3580,4fc328ea87d989500cb18449cebb3552,81ba924887e1c1900cb18449cebb354a,87c328ea87d989500cb18449cebb358f,cfc328ea87d989500cb18449cebb353a,cfc328ea87d989500cb18449cebb3587"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1985,14 +2230,14 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Asset Reclamation Dunning">e6c3e4ea87d989500cb18449cebb35c2</flow>
-        <order>10</order>
+        <order>12</order>
         <parent_ui_id>578982cf-da70-4580-85bb-a8e4b2796fa7</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
         <sys_created_on>2022-01-29 20:02:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>47c328ea87d989500cb18449cebb3580</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2000,7 +2245,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
         <ui_id>d6cf1c83-9833-46d2-88bc-a8a5aecceabf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=47c328ea87d989500cb18449cebb3580"/>
@@ -2073,7 +2318,7 @@
         <sys_created_on>2022-01-29 20:02:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4fc328ea87d989500cb18449cebb3552</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2081,7 +2326,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:11</sys_updated_on>
         <ui_id>4cfbf711-d2da-4321-a049-c0ab87607870</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4fc328ea87d989500cb18449cebb3552"/>
@@ -2115,20 +2360,20 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
-        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
-        <comment>Log the final dunning state</comment>
-        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <action_type display_value="Convert MS to Duration">5001339687d589500cb18449cebb35ce</action_type>
+        <action_type_parent display_value="Convert MS to Duration">3e7ea39287d589500cb18449cebb359f</action_type_parent>
+        <comment>Convert Current past due ms to Duration</comment>
+        <compiled_snapshot>5001339687d589500cb18449cebb35ce</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Asset Reclamation Dunning">e6c3e4ea87d989500cb18449cebb35c2</flow>
-        <order>14</order>
-        <parent_ui_id/>
+        <order>6</order>
+        <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
-        <sys_created_on>2022-01-29 20:02:46</sys_created_on>
+        <sys_created_on>2022-02-03 20:33:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>87c328ea87d989500cb18449cebb358f</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_id>81ba924887e1c1900cb18449cebb354a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2136,7 +2381,64 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:07</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
+        <ui_id>1cb6c0a3-01c5-490d-b5bb-6fe39db04714</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=81ba924887e1c1900cb18449cebb354a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>81ba924887e1c1900cb18449cebb354a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:33:10</sys_created_on>
+        <sys_id>8dba924887e1c1900cb18449cebb354b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:10</sys_updated_on>
+        <value/>
+        <variable display_value="Milliseconds">d401339687d589500cb18449cebb35d1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=81ba924887e1c1900cb18449cebb354a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>milliseconds</field>
+        <id>81ba924887e1c1900cb18449cebb354a</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:33:10</sys_created_on>
+        <sys_id>09ba924887e1c1900cb18449cebb354b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5001339687d589500cb18449cebb35ce</table>
+        <value>{{flow_variable.current_past_due_ms}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=81ba924887e1c1900cb18449cebb354a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=81ba924887e1c1900cb18449cebb354a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment>Log the final dunning state</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Hardware Asset Reclamation Dunning">e6c3e4ea87d989500cb18449cebb35c2</flow>
+        <order>16</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 20:02:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>87c328ea87d989500cb18449cebb358f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
         <ui_id>a4d96e02-2326-4919-9319-26daee199e00</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=87c328ea87d989500cb18449cebb358f"/>
@@ -2171,7 +2473,7 @@
         <sys_created_on>2022-01-29 20:02:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>cfc328ea87d989500cb18449cebb353a</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2179,7 +2481,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:11</sys_updated_on>
         <ui_id>852ed69b-0ed5-4f6d-b709-efe6e658e667</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cfc328ea87d989500cb18449cebb353a"/>
@@ -2221,14 +2523,14 @@
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Hardware Asset Reclamation Dunning">e6c3e4ea87d989500cb18449cebb35c2</flow>
-        <order>11</order>
+        <order>13</order>
         <parent_ui_id>578982cf-da70-4580-85bb-a8e4b2796fa7</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
         <sys_created_on>2022-01-29 20:02:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>cfc328ea87d989500cb18449cebb3587</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2236,7 +2538,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
         <ui_id>f8d55ffc-2232-427f-9663-dd99423643fc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cfc328ea87d989500cb18449cebb3587"/>
@@ -2300,7 +2602,7 @@
         <flow display_value="Hardware Asset Reclamation Dunning">e6c3e4ea87d989500cb18449cebb35c2</flow>
         <inputs/>
         <inputs/>
-        <order>5</order>
+        <order>7</order>
         <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
         <subflow display_value="Reclamation Dunning Decision">127f00ee875989500cb18449cebb35d1</subflow>
         <subflow_instance_inputs/>
@@ -2309,7 +2611,7 @@
         <sys_created_on>2022-01-29 20:02:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8fc328ea87d989500cb18449cebb3592</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2317,7 +2619,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
         <ui_id>4658d40a-8bc0-4fac-8213-6781ab202635</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8fc328ea87d989500cb18449cebb3592"/>
@@ -2341,13 +2643,13 @@
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
-        <sys_created_on>2022-02-02 17:52:05</sys_created_on>
-        <sys_id>bb3c2c33875541900cb18449cebb359b</sys_id>
+        <sys_created_on>2022-02-03 20:33:11</sys_created_on>
+        <sys_id>91ba924887e1c1900cb18449cebb3599</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:05</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:11</sys_updated_on>
         <value/>
-        <variable display_value="Due date">94656cb7871541900cb18449cebb354a</variable>
+        <variable display_value="Past Due Duration">09c206088761c1900cb18449cebb3502</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8fc328ea87d989500cb18449cebb3592"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2373,6 +2675,18 @@
         <sys_updated_on>2022-02-02 17:52:05</sys_updated_on>
         <table>var__m_sys_hub_flow_input_127f00ee875989500cb18449cebb35d1</table>
         <value>{{4cfbf711-d2da-4321-a049-c0ab87607870.Record.sys_created_on}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>past_due_duration</field>
+        <id>8fc328ea87d989500cb18449cebb3592</id>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:33:11</sys_created_on>
+        <sys_id>11ba924887e1c1900cb18449cebb3599</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_127f00ee875989500cb18449cebb35d1</table>
+        <value>{{1cb6c0a3-01c5-490d-b5bb-6fe39db04714.duration}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>refresh_line_task</field>
@@ -2484,7 +2798,7 @@
         <xml_view>false</xml_view>
     </sys_hub_sub_flow_instance_inputs>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8fc328ea87d989500cb18449cebb3592"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=e6c3e4ea87d989500cb18449cebb35c2^sys_idNOT IN76c328ea87d989500cb18449cebb3504,7ac3e4ea87d989500cb18449cebb35f9,7ec328ea87d989500cb18449cebb351b,83c328ea87d989500cb18449cebb351f,87c328ea87d989500cb18449cebb3523,b2c328ea87d989500cb18449cebb3500,f2c328ea87d989500cb18449cebb350b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e6c3e4ea87d989500cb18449cebb35c2^sys_idNOT IN76c328ea87d989500cb18449cebb3504,7ac3e4ea87d989500cb18449cebb35f9,7ec328ea87d989500cb18449cebb351b,83c328ea87d989500cb18449cebb351f,87c328ea87d989500cb18449cebb3523,9dba924887e1c1900cb18449cebb3562,b2c328ea87d989500cb18449cebb3500,f2c328ea87d989500cb18449cebb350b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">359bd4ee879989500cb18449cebb35ed</block>
         <comment/>
@@ -2499,7 +2813,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
-        <order>12</order>
+        <order>14</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
@@ -2508,7 +2822,7 @@
         <sys_created_on>2022-01-29 20:02:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>76c328ea87d989500cb18449cebb3504</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2516,7 +2830,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
         <ui_id>af3b45af-8799-4d32-8467-d33fb6836035</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2588,7 +2902,7 @@
         <extended_inputs/>
         <flow display_value="Hardware Asset Reclamation Dunning">e6c3e4ea87d989500cb18449cebb35c2</flow>
         <flow_variable/>
-        <flow_variables_assigned>current_dunning_state,stop_dunning,dunning_interval_ms</flow_variables_assigned>
+        <flow_variables_assigned>current_dunning_state,stop_dunning,dunning_interval_ms,current_past_due_ms</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>1</order>
@@ -2600,7 +2914,7 @@
         <sys_created_on>2022-01-29 20:02:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7ac3e4ea87d989500cb18449cebb35f9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2608,12 +2922,26 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:11</sys_updated_on>
         <ui_id>3be1eb95-5d7b-46cf-b81f-c5504f099386</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=7ac3e4ea87d989500cb18449cebb35f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7ac3e4ea87d989500cb18449cebb35f9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:33:10</sys_created_on>
+        <sys_id>09ba924887e1c1900cb18449cebb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:10</sys_updated_on>
+        <value/>
+        <variable display_value="Current past due ms">89ba924887e1c1900cb18449cebb352e</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
         <document_key>7ac3e4ea87d989500cb18449cebb35f9</document_key>
@@ -2644,7 +2972,7 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_e6c3e4ea87d989500cb18449cebb35c2^id=7ac3e4ea87d989500cb18449cebb35f9"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7ac3e4ea87d989500cb18449cebb35f9"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=7ac3e4ea87d989500cb18449cebb35f9^sys_idNOT IN32c3e4ea87d989500cb18449cebb35fb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ac3e4ea87d989500cb18449cebb35f9^sys_idNOT IN32c3e4ea87d989500cb18449cebb35fb,8dba924887e1c1900cb18449cebb3557"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>true</active>
         <input_name>dunning_interval_ms</input_name>
@@ -2657,6 +2985,19 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>jim.willhite</sys_updated_by>
         <sys_updated_on>2022-01-29 20:02:45</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>current_past_due_ms</input_name>
+        <instance>7ac3e4ea87d989500cb18449cebb35f9</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"current_past_due_ms":{"scriptActive":true,"script":"// Calculate milliseconds since current record was created\nvar created_on_gdt \u003d new GlideDateTime(fd_data.trigger.current.getValue(\u0027sys_created_on\u0027));\nvar current_gdt \u003d new GlideDateTime(); // Current DateTime\nvar duration \u003d GlideDateTime.subtract(created_on_gdt, current_gdt );\n\nreturn duration.getNumericValue();"}}</script>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:33:10</sys_created_on>
+        <sys_id>8dba924887e1c1900cb18449cebb3557</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:10</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">469b18ee879989500cb18449cebb3557</block>
@@ -2671,7 +3012,7 @@
         <flow_variables_assigned>stop_dunning</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>7</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>75969229-1a98-4128-bd86-fe43ed0c57d9</parent_ui_id>
@@ -2680,7 +3021,7 @@
         <sys_created_on>2022-01-29 20:02:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7ec328ea87d989500cb18449cebb351b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2688,7 +3029,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
         <ui_id>81f81f7d-1701-4533-be0e-aef86812eea3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2725,7 +3066,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>8</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
@@ -2734,7 +3075,7 @@
         <sys_created_on>2022-01-29 20:02:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>83c328ea87d989500cb18449cebb351f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2742,7 +3083,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
         <ui_id>578982cf-da70-4580-85bb-a8e4b2796fa7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2778,7 +3119,7 @@
         <flow_variables_assigned>current_dunning_state</flow_variables_assigned>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>9</order>
+        <order>11</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>578982cf-da70-4580-85bb-a8e4b2796fa7</parent_ui_id>
@@ -2787,7 +3128,7 @@
         <sys_created_on>2022-01-29 20:02:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>87c328ea87d989500cb18449cebb3523</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2795,7 +3136,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
         <ui_id>84cf1e40-2175-4790-885d-71a6e7e1bf6e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2816,6 +3157,72 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=87c328ea87d989500cb18449cebb3523"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=87c328ea87d989500cb18449cebb3523"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">adb59e4087e1c1900cb18449cebb3577</block>
+        <comment>Update Current past due ms</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Hardware Asset Reclamation Dunning">e6c3e4ea87d989500cb18449cebb35c2</flow>
+        <flow_variable/>
+        <flow_variables_assigned>current_past_due_ms</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:33:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9dba924887e1c1900cb18449cebb3562</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
+        <ui_id>35e9224e-96fb-49c8-bfbf-889a20af0330</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9dba924887e1c1900cb18449cebb3562"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9dba924887e1c1900cb18449cebb3562</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:33:10</sys_created_on>
+        <sys_id>d9ba924887e1c1900cb18449cebb3565</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:10</sys_updated_on>
+        <value/>
+        <variable display_value="Current past due ms">89ba924887e1c1900cb18449cebb352e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_e6c3e4ea87d989500cb18449cebb35c2^id=9dba924887e1c1900cb18449cebb3562"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9dba924887e1c1900cb18449cebb3562"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9dba924887e1c1900cb18449cebb3562^sys_idNOT IN11ba924887e1c1900cb18449cebb3564"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>current_past_due_ms</input_name>
+        <instance>9dba924887e1c1900cb18449cebb3562</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"current_past_due_ms":{"scriptActive":true,"script":"// Calculate milliseconds since current record was created\nvar created_on_gdt \u003d new GlideDateTime(fd_data.trigger.current.getValue(\u0027sys_created_on\u0027));\nvar current_gdt \u003d new GlideDateTime(); // Current DateTime\nvar duration \u003d GlideDateTime.subtract(created_on_gdt, current_gdt );\n\nreturn duration.getNumericValue();"}}</script>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:33:10</sys_created_on>
+        <sys_id>11ba924887e1c1900cb18449cebb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:10</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">759bd4ee879989500cb18449cebb35e9</block>
         <comment/>
@@ -2839,7 +3246,7 @@
         <sys_created_on>2022-01-29 20:02:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b2c328ea87d989500cb18449cebb3500</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2847,7 +3254,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:11</sys_updated_on>
         <ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2883,7 +3290,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>6</order>
+        <order>8</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>b005e5a3-8f4f-466f-829d-5b4e72fc1ea9</parent_ui_id>
@@ -2892,7 +3299,7 @@
         <sys_created_on>2022-01-29 20:02:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f2c328ea87d989500cb18449cebb350b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2900,7 +3307,7 @@
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:52:06</sys_updated_on>
+        <sys_updated_on>2022-02-03 20:33:12</sys_updated_on>
         <ui_id>75969229-1a98-4128-bd86-fe43ed0c57d9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2991,7 +3398,7 @@
         <transform_definition_id/>
         <ui_id>c0935228-2454-4f37-8808-1ce923f44430</ui_id>
     </sys_hub_pill_compound>
-    <sys_hub_flow_variable action="delete_multiple" query="model=e6c3e4ea87d989500cb18449cebb35c2^sys_idNOT IN72c3e4ea87d989500cb18449cebb35f1,76c3e4ea87d989500cb18449cebb35f4,bec3e4ea87d989500cb18449cebb35ec"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e6c3e4ea87d989500cb18449cebb35c2^sys_idNOT IN72c3e4ea87d989500cb18449cebb35f1,76c3e4ea87d989500cb18449cebb35f4,89ba924887e1c1900cb18449cebb352e,bec3e4ea87d989500cb18449cebb35ec"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3147,6 +3554,89 @@
         <sys_update_name>sys_hub_flow_variable_76c3e4ea87d989500cb18449cebb35f4</sys_update_name>
         <sys_updated_by>jim.willhite</sys_updated_by>
         <sys_updated_on>2022-01-29 20:02:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=6ab0752a-9ddf-4356-a58f-72d30ac79c51</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_past_due_ms</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Current past due ms</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Hardware Asset Reclamation Dunning">e6c3e4ea87d989500cb18449cebb35c2</model>
+        <model_id>e6c3e4ea87d989500cb18449cebb35c2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_e6c3e4ea87d989500cb18449cebb35c2</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-03 20:33:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>89ba924887e1c1900cb18449cebb352e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Current past due ms</sys_name>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_89ba924887e1c1900cb18449cebb352e</sys_update_name>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-03 20:33:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

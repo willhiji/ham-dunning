@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>d66894da875549500cb18449cebb356b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ham_dunning_output_states">
+    <x_snc_ham_dunning_output_states action="INSERT_OR_UPDATE">
+        <comment>Reminder notification</comment>
+        <next_state>reminder</next_state>
+        <notification display_value="Reclamation dunning reminder">2b701012875549500cb18449cebb3587</notification>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 00:35:35</sys_created_on>
+        <sys_id>d66894da875549500cb18449cebb356b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 00:35:35</sys_updated_on>
+    </x_snc_ham_dunning_output_states>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-02 19:37:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>205485b387d541900cb18449cebb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reminder</sys_name>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sys_metadata_link_205485b387d541900cb18449cebb35c4</sys_update_name>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-02 19:37:16</sys_updated_on>
+        <tablename>x_snc_ham_dunning_output_states</tablename>
+    </sys_metadata_link>
+</record_update>

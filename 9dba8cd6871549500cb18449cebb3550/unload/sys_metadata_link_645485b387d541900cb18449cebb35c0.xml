@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>83c8901e875549500cb18449cebb3581</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ham_dunning_output_states">
+    <x_snc_ham_dunning_output_states action="INSERT_OR_UPDATE">
+        <comment>Manager notification</comment>
+        <next_state>manager</next_state>
+        <notification display_value="Reclamation dunning manager">6d31dc12875549500cb18449cebb3531</notification>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-01-29 00:36:13</sys_created_on>
+        <sys_id>83c8901e875549500cb18449cebb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-01-29 00:36:13</sys_updated_on>
+    </x_snc_ham_dunning_output_states>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>jim.willhite</sys_created_by>
+        <sys_created_on>2022-02-02 19:37:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>645485b387d541900cb18449cebb35c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>manager</sys_name>
+        <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
+        <sys_update_name>sys_metadata_link_645485b387d541900cb18449cebb35c0</sys_update_name>
+        <sys_updated_by>jim.willhite</sys_updated_by>
+        <sys_updated_on>2022-02-02 19:37:16</sys_updated_on>
+        <tablename>x_snc_ham_dunning_output_states</tablename>
+    </sys_metadata_link>
+</record_update>

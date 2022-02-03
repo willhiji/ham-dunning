@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_decision_input">
-    <sys_decision_input action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_variable">
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.decision_table.data.DecisionTableVariableMapper</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=5fdcad2f-faef-4990-8815-033881999e83</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Due Date</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,23 +27,23 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_due_date</element>
+        <element>dunning_interval_ms</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="">glide_date_time</internal_type>
-        <label>Due Date</label>
-        <mandatory>true</mandatory>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Dunning interval ms</label>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Hardware Asset Reclamation Dunning">caa923162f110110f56257892799b6cc</model>
-        <model_id>caa923162f110110f56257892799b6cc</model_id>
-        <model_table>sys_decision</model_table>
-        <name>var__m_sys_decision_input_caa923162f110110f56257892799b6cc</name>
+        <model display_value="Hardware Asset Reclamation Dunning">0dd76cbb871541900cb18449cebb35a2</model>
+        <model_id>0dd76cbb871541900cb18449cebb35a2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_0dd76cbb871541900cb18449cebb35a2</name>
         <next_element/>
-        <order>3</order>
+        <order>0</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -57,20 +57,20 @@
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_decision_input</sys_class_name>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
         <sys_created_by>jim.willhite</sys_created_by>
-        <sys_created_on>2022-02-02 17:03:09</sys_created_on>
+        <sys_created_on>2022-02-02 17:32:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f601a0ff87d141900cb18449cebb358a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Due Date</sys_name>
+        <sys_id>11d76cbb871541900cb18449cebb35b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dunning interval ms</sys_name>
         <sys_package display_value="HAM Dunning" source="x_snc_ham_dunning">9dba8cd6871549500cb18449cebb3550</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HAM Dunning">9dba8cd6871549500cb18449cebb3550</sys_scope>
-        <sys_update_name>sys_decision_input_f601a0ff87d141900cb18449cebb358a</sys_update_name>
+        <sys_update_name>sys_hub_flow_variable_11d76cbb871541900cb18449cebb35b2</sys_update_name>
         <sys_updated_by>jim.willhite</sys_updated_by>
-        <sys_updated_on>2022-02-02 17:03:09</sys_updated_on>
+        <sys_updated_on>2022-02-02 17:32:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -81,5 +81,5 @@
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_decision_input>
+    </sys_hub_flow_variable>
 </record_update>
